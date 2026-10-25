@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://genoffice.ai/">
+  <a href="https://github.com/zhoushenghuan67/genoffice/">
     <picture>
       <source srcset="../assets/readme/hero-dark.webp" media="(prefers-color-scheme: dark)">
       <img src="../assets/readme/hero.webp" alt="HuanOffice — オープンソースの AI オフィススイート：Docs、Sheets、Slides、PDF、Markdown、HTML と内蔵 AI パネル" width="100%">
@@ -13,10 +13,10 @@
 Word、Excel、PowerPoint、PDF ファイルを、あなたとあなたの AI が編集し、実際のファイル形式のまま保存します。</p>
 
 <p align="center">
-  <a href="../../LICENSE"><img src="https://img.shields.io/github/license/genspark-ai/genoffice" alt="License: Apache-2.0"></a>
-  <a href="https://github.com/genspark-ai/genoffice/releases/latest"><img src="https://img.shields.io/github/v/release/genspark-ai/genoffice" alt="Latest release"></a>
-  <a href="https://github.com/genspark-ai/genoffice/releases"><img src="https://img.shields.io/github/downloads/genspark-ai/genoffice/total" alt="Downloads"></a>
-  <a href="https://github.com/genspark-ai/genoffice/stargazers"><img src="https://img.shields.io/github/stars/genspark-ai/genoffice?style=flat" alt="GitHub stars"></a>
+  <a href="../../LICENSE"><img src="https://img.shields.io/github/license/zhoushenghuan67/genoffice" alt="License: Apache-2.0"></a>
+  <a href="https://github.com/zhoushenghuan67/genoffice/releases/latest"><img src="https://img.shields.io/github/v/release/zhoushenghuan67/genoffice" alt="Latest release"></a>
+  <a href="https://github.com/zhoushenghuan67/genoffice/releases"><img src="https://img.shields.io/github/downloads/zhoushenghuan67/genoffice/total" alt="Downloads"></a>
+  <a href="https://github.com/zhoushenghuan67/genoffice/stargazers"><img src="https://img.shields.io/github/stars/zhoushenghuan67/genoffice?style=flat" alt="GitHub stars"></a>
 </p>
 
 <p align="center"><a href="../../README.md">English</a> · <a href="README.es.md">Español</a> · <a href="README.pt-BR.md">Português (Brasil)</a> · <a href="README.de.md">Deutsch</a> · <a href="README.fr.md">Français</a> · <a href="README.zh-CN.md">简体中文</a> · <a href="README.zh-TW.md">繁體中文</a> · <a href="README.ko.md">한국어</a> · <b>日本語</b> · <a href="README.ar.md">العربية</a> · <a href="README.ru.md">Русский</a> · <a href="README.it.md">Italiano</a> · <a href="README.nl.md">Nederlands</a> · <a href="README.pl.md">Polski</a> · <a href="README.cs.md">Čeština</a> · <a href="README.id.md">Bahasa Indonesia</a> · <a href="README.ms.md">Bahasa Melayu</a> · <a href="README.th.md">ไทย</a> · <a href="README.hi.md">हिन्दी</a> · <a href="README.he.md">עברית</a> · <a href="README.vi.md">Tiếng Việt</a></p>
@@ -26,8 +26,8 @@ Word、Excel、PowerPoint、PDF ファイルを、あなたとあなたの AI �
   <a href="#skills"><b>スキル</b></a> ·
   <a href="#command-line-and-agent-skill"><b>CLI</b></a> ·
   <a href="#mcp-server"><b>MCP</b></a> ·
-  <a href="https://genoffice.ai/"><b>ウェブサイト</b></a> ·
-  <a href="https://genoffice.ai/join"><b>コミュニティ</b></a> ·
+  <a href="https://github.com/zhoushenghuan67/genoffice/"><b>ウェブサイト</b></a> ·
+  <a href="https://github.com/zhoushenghuan67/genoffice"><b>コミュニティ</b></a> ·
   <a href="../../PRIVACY.md"><b>プライバシー</b></a>
 </p>
 
@@ -39,9 +39,9 @@ HuanOffice は、macOS・Windows・Linux で動作する、Microsoft Office に�
 - **キーを使うか使わないかはあなた次第。** Genspark でサインインすればキーの用意は不要です。あるいは、Claude、OpenAI、Gemini、DeepSeek、Kimi、GLM、Qwen、Doubao、MiniMax、Grok、Mistral、OpenRouter、Requesty、または任意の OpenAI 互換エンドポイント（ローカルサーバーを含む）向けに、自分の API キーを持ち込むこともできます。
 - **スクリプト化でき、エージェントからも使える。** アプリには `huanoffice` コマンドラインと、Claude Code、Codex、Cursor、Gemini CLI、GitHub Copilot、OpenCode、Windsurf 向けのスキルが同梱されているため、コーディングエージェントはウィンドウを一つも開かずに、お使いのマシン上で本物の Office ファイルを作成・変換・読み取り・編集できます。
 
-**入手方法：** [macOS](https://github.com/genspark-ai/genoffice/releases/latest)（Apple Silicon および Intel）·
-[Windows](https://github.com/genspark-ai/genoffice/releases/latest)（x64 および Arm）·
-[Linux](https://github.com/genspark-ai/genoffice/releases/latest)（deb、rpm、AppImage）—
+**入手方法：** [macOS](https://github.com/zhoushenghuan67/genoffice/releases/latest)（Apple Silicon および Intel）·
+[Windows](https://github.com/zhoushenghuan67/genoffice/releases/latest)（x64 および Arm）·
+[Linux](https://github.com/zhoushenghuan67/genoffice/releases/latest)（deb、rpm、AppImage）—
 詳細と要件は[ダウンロード](#download)を参照してください。
 
 ## デモ
@@ -155,7 +155,7 @@ HuanOffice には `huanoffice` コマンドラインとエージェントスキ�
 </tr>
 <tr>
 <td><b>エージェントへのプロンプトは 1 つ</b> — 「太陽系についての 8 枚構成のデッキを作って」。エージェントはスキルを読み、スタイルシート、アウトライン、スライドごとのページ仕様を書き、<code>huanoffice image</code> で 2 枚の写真を生成し、<code>huanoffice slides check</code> にはみ出しや重なりのある要素を弾かせてから、<code>huanoffice create</code> で <code>.pptx</code> を組み立て、<code>slides render</code> でスライドごとの PNG を受け取って確認します。</td>
-<td><b>インストールは設定 → 連携から 1 回だけ</b> — HuanOffice がこのコンピューター上で見つかったコーディングエージェントを一覧し、選んだそれぞれにスキルを書き込みます。スキルを zip としてダウンロードするか、<code>npx skills add genspark-ai/genoffice</code> を実行しても構いません。コマンドとワークフローの全体は <a href="#command-line-and-agent-skill">コマンドラインとエージェントスキル</a> にあります。</td>
+<td><b>インストールは設定 → 連携から 1 回だけ</b> — HuanOffice がこのコンピューター上で見つかったコーディングエージェントを一覧し、選んだそれぞれにスキルを書き込みます。スキルを zip としてダウンロードするか、<code>npx skills add zhoushenghuan67/genoffice</code> を実行しても構いません。コマンドとワークフローの全体は <a href="#command-line-and-agent-skill">コマンドラインとエージェントスキル</a> にあります。</td>
 </tr>
 </table>
 
@@ -254,7 +254,7 @@ Claude Desktop とあらゆる MCP クライアントでも動作します。
 | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | アプリの **設定 → 連携**                | このコンピューター上で見つかったエージェントを一覧し、ワンクリックで選んだそれぞれにスキルを書き込みます。HuanOffice のリリースに新しいスキルが含まれていると**更新**ボタンが表示されます。 |
 | 同じページの **zip としてダウンロード** | claude.ai、Claude デスクトップアプリ、その他のアシスタントがアップロード用スキルとして受け付ける構成です。                                                                                 |
-| `npx skills add genspark-ai/genoffice`  | このリポジトリから、スキルに対応する任意のエージェントにインストールします。                                                                                                               |
+| `npx skills add zhoushenghuan67/genoffice`  | このリポジトリから、スキルに対応する任意のエージェントにインストールします。                                                                                                               |
 
 その後、新しいチャットを始めてドキュメントを依頼してください。スキルは、いつ `huanoffice` を使うべきか、
 編集前にファイルをどう読むか、自分の成果物をどう確認するかをエージェントに教えます。
@@ -360,16 +360,16 @@ deck_replace(dir, n, page) ×3 · slides_render(file, out)
 
 | プラットフォーム                           | 要件                                                                   | ダウンロード                                                                                   |
 | ------------------------------------------ | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| **macOS** — Apple Silicon（arm64）         | macOS 11 以降                                                          | [最新の `.dmg`（arm64）](https://github.com/genspark-ai/genoffice/releases/latest)             |
-| **macOS** — Intel（x64）                   | macOS 11 以降                                                          | [最新の `.dmg`（x64）](https://github.com/genspark-ai/genoffice/releases/latest)               |
-| **Windows**（x64、大半の PC）              | Windows 10 以降、Intel/AMD                                             | [最新の `-x64.exe` インストーラー](https://github.com/genspark-ai/genoffice/releases/latest)   |
-| **Windows** on Arm（ARM64）                | Windows 11 on Arm（Snapdragon X など）                                 | [最新の `-arm64.exe` インストーラー](https://github.com/genspark-ai/genoffice/releases/latest) |
-| **Linux** — Debian / Ubuntu                | x86_64、glibc 2.34 以降（Ubuntu 22.04 以降）                           | [最新の `.deb`](https://github.com/genspark-ai/genoffice/releases/latest)                      |
-| **Linux** — Fedora / RHEL / openSUSE       | x86_64、glibc 2.34 以降（Fedora 35 以降、RHEL 9 以降、Leap 15.6 以降） | [最新の `.rpm`](https://github.com/genspark-ai/genoffice/releases/latest)                      |
-| **Linux** — その他のディストリビューション | x86_64、glibc 2.34 以降、FUSE 2                                        | [最新の `.AppImage`](https://github.com/genspark-ai/genoffice/releases/latest)                 |
+| **macOS** — Apple Silicon（arm64）         | macOS 11 以降                                                          | [最新の `.dmg`（arm64）](https://github.com/zhoushenghuan67/genoffice/releases/latest)             |
+| **macOS** — Intel（x64）                   | macOS 11 以降                                                          | [最新の `.dmg`（x64）](https://github.com/zhoushenghuan67/genoffice/releases/latest)               |
+| **Windows**（x64、大半の PC）              | Windows 10 以降、Intel/AMD                                             | [最新の `-x64.exe` インストーラー](https://github.com/zhoushenghuan67/genoffice/releases/latest)   |
+| **Windows** on Arm（ARM64）                | Windows 11 on Arm（Snapdragon X など）                                 | [最新の `-arm64.exe` インストーラー](https://github.com/zhoushenghuan67/genoffice/releases/latest) |
+| **Linux** — Debian / Ubuntu                | x86_64、glibc 2.34 以降（Ubuntu 22.04 以降）                           | [最新の `.deb`](https://github.com/zhoushenghuan67/genoffice/releases/latest)                      |
+| **Linux** — Fedora / RHEL / openSUSE       | x86_64、glibc 2.34 以降（Fedora 35 以降、RHEL 9 以降、Leap 15.6 以降） | [最新の `.rpm`](https://github.com/zhoushenghuan67/genoffice/releases/latest)                      |
+| **Linux** — その他のディストリビューション | x86_64、glibc 2.34 以降、FUSE 2                                        | [最新の `.AppImage`](https://github.com/zhoushenghuan67/genoffice/releases/latest)                 |
 
 すべてのビルドは `main` ブランチから生成され、macOS・Windows のインストーラーには署名が付いて
-います。以前のバージョンは [Releases](https://github.com/genspark-ai/genoffice/releases) ページにあります。
+います。以前のバージョンは [Releases](https://github.com/zhoushenghuan67/genoffice/releases) ページにあります。
 
 <details>
 <summary><b>Linux へのインストール</b></summary>
@@ -442,9 +442,9 @@ sheets アプリでは、xlsx サイドカー用に Rust ツールチェーン�
 HuanOffice は活発に開発が続いており、みなさんのフィードバックがその方向性を形づくっています。
 
 - **バグの報告や機能のリクエスト**は
-  [GitHub Issues](https://github.com/genspark-ai/genoffice/issues) で受け付けています。
+  [GitHub Issues](https://github.com/zhoushenghuan67/genoffice/issues) で受け付けています。
 - **HuanOffice のグループチャット**に
-  [GenTeam](https://genoffice.ai/join) から参加すると、開発チームや他のユーザーと直接話せます。
+  [GenTeam](https://github.com/zhoushenghuan67/genoffice) から参加すると、開発チームや他のユーザーと直接話せます。
 - HuanOffice が役に立ったら**リポジトリにスターを付けてください** — プロジェクトを支援する
   一番簡単な方法です。
 
@@ -593,8 +593,8 @@ MIT/Apache-2.0/BSD-3-Clause/OFL のいずれかです。
 
 HuanOffice は [Apache License 2.0](../../LICENSE) のもとでライセンスされていますが、1 つ例外
 があります：`ee/` ディレクトリは将来のエンタープライズモジュール用に予約されており、
-[HuanOffice Enterprise License](../../ee/LICENSE) が適用されます。
+[GenOffice Enterprise License](../../ee/LICENSE) が適用されます。
 
-HuanOffice および Genspark の名称とロゴは Mainfunc, Inc. の商標です。Apache-2.0 ライセンスは
-これらの使用を許諾するものではありません（セクション 6 を参照）。フォークする場合は、独自の
-ブランディングを使用してください。
+GenOffice および Genspark の名称とロゴは Mainfunc, Inc. の商標です。Apache-2.0 ライセンスは
+これらの使用を許諾するものではありません（セクション 6 を参照）。このフォークは独自の
+HuanOffice ブランドを使用しており、Mainfunc, Inc. の商標ではありません。

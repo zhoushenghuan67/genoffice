@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://genoffice.ai/">
+  <a href="https://github.com/zhoushenghuan67/genoffice/">
     <picture>
       <source srcset="../assets/readme/hero-dark.webp" media="(prefers-color-scheme: dark)">
       <img src="../assets/readme/hero.webp" alt="HuanOffice — open-source AI kancelářský balík: Docs, Sheets, Slides, PDF, Markdown a HTML s vestavěným AI panelem" width="100%">
@@ -13,10 +13,10 @@
 Soubory Word, Excel, PowerPoint a PDF, upravované vámi a vaší AI, ukládané zpět ve skutečných formátech.</p>
 
 <p align="center">
-  <a href="../../LICENSE"><img src="https://img.shields.io/github/license/genspark-ai/genoffice" alt="Licence: Apache-2.0"></a>
-  <a href="https://github.com/genspark-ai/genoffice/releases/latest"><img src="https://img.shields.io/github/v/release/genspark-ai/genoffice" alt="Nejnovější verze"></a>
-  <a href="https://github.com/genspark-ai/genoffice/releases"><img src="https://img.shields.io/github/downloads/genspark-ai/genoffice/total" alt="Stažení"></a>
-  <a href="https://github.com/genspark-ai/genoffice/stargazers"><img src="https://img.shields.io/github/stars/genspark-ai/genoffice?style=flat" alt="Hvězdy na GitHubu"></a>
+  <a href="../../LICENSE"><img src="https://img.shields.io/github/license/zhoushenghuan67/genoffice" alt="Licence: Apache-2.0"></a>
+  <a href="https://github.com/zhoushenghuan67/genoffice/releases/latest"><img src="https://img.shields.io/github/v/release/zhoushenghuan67/genoffice" alt="Nejnovější verze"></a>
+  <a href="https://github.com/zhoushenghuan67/genoffice/releases"><img src="https://img.shields.io/github/downloads/zhoushenghuan67/genoffice/total" alt="Stažení"></a>
+  <a href="https://github.com/zhoushenghuan67/genoffice/stargazers"><img src="https://img.shields.io/github/stars/zhoushenghuan67/genoffice?style=flat" alt="Hvězdy na GitHubu"></a>
 </p>
 
 <p align="center"><a href="../../README.md">English</a> · <a href="README.es.md">Español</a> · <a href="README.pt-BR.md">Português (Brasil)</a> · <a href="README.de.md">Deutsch</a> · <a href="README.fr.md">Français</a> · <a href="README.zh-CN.md">简体中文</a> · <a href="README.zh-TW.md">繁體中文</a> · <a href="README.ko.md">한국어</a> · <a href="README.ja.md">日本語</a> · <a href="README.ar.md">العربية</a> · <a href="README.ru.md">Русский</a> · <a href="README.it.md">Italiano</a> · <a href="README.nl.md">Nederlands</a> · <a href="README.pl.md">Polski</a> · <b>Čeština</b> · <a href="README.id.md">Bahasa Indonesia</a> · <a href="README.ms.md">Bahasa Melayu</a> · <a href="README.th.md">ไทย</a> · <a href="README.hi.md">हिन्दी</a> · <a href="README.he.md">עברית</a> · <a href="README.vi.md">Tiếng Việt</a></p>
@@ -26,8 +26,8 @@ Soubory Word, Excel, PowerPoint a PDF, upravované vámi a vaší AI, ukládané
   <a href="#skills"><b>Skilly</b></a> ·
   <a href="#command-line-and-agent-skill"><b>CLI</b></a> ·
   <a href="#mcp-server"><b>MCP</b></a> ·
-  <a href="https://genoffice.ai/"><b>Web</b></a> ·
-  <a href="https://genoffice.ai/join"><b>Komunita</b></a> ·
+  <a href="https://github.com/zhoushenghuan67/genoffice/"><b>Web</b></a> ·
+  <a href="https://github.com/zhoushenghuan67/genoffice"><b>Komunita</b></a> ·
   <a href="../../PRIVACY.md"><b>Soukromí</b></a>
 </p>
 
@@ -58,9 +58,9 @@ provede požadovanou úpravu a přesně vám ukáže, čeho se dotkl.
   počítači vytvářet, převádět, číst a upravovat skutečné soubory Office, aniž
   by otevřel jediné okno.
 
-**Stáhnout:** [macOS](https://github.com/genspark-ai/genoffice/releases/latest) (Apple Silicon a Intel) ·
-[Windows](https://github.com/genspark-ai/genoffice/releases/latest) (x64 a Arm) ·
-[Linux](https://github.com/genspark-ai/genoffice/releases/latest) (deb, rpm, AppImage) —
+**Stáhnout:** [macOS](https://github.com/zhoushenghuan67/genoffice/releases/latest) (Apple Silicon a Intel) ·
+[Windows](https://github.com/zhoushenghuan67/genoffice/releases/latest) (x64 a Arm) ·
+[Linux](https://github.com/zhoushenghuan67/genoffice/releases/latest) (deb, rpm, AppImage) —
 podrobnosti a požadavky najdete v sekci [Stažení](#download).
 
 ## Ukázka
@@ -181,7 +181,7 @@ přes stejné enginy jako aplikace, aniž by otevřely jediné okno.
 </tr>
 <tr>
 <td><b>Jeden prompt vašemu agentovi</b> — „Vytvoř osmisnímkovou prezentaci o sluneční soustavě.“ Agent si přečte skill, napíše stylový list, osnovu a jednu specifikaci stránky na snímek, vygeneruje obě fotografie pomocí <code>huanoffice image</code> a nechá <code>huanoffice slides check</code> odmítnout vše, co přetéká nebo se překrývá, než <code>huanoffice create</code> sestaví soubor <code>.pptx</code> a <code>slides render</code> vrátí ke kontrole jeden PNG na snímek.</td>
-<td><b>Nainstalujte jednou, v Nastavení → Integrace</b> — HuanOffice vypíše kódovací agenty, které na tomto počítači najde, a zapíše skill do každého, který vyberete. Nebo si skill stáhněte jako zip, případně spusťte <code>npx skills add genspark-ai/genoffice</code>. Příkazy a celý pracovní postup najdete v sekci <a href="#command-line-and-agent-skill">Příkazový řádek a agentní skill</a>.</td>
+<td><b>Nainstalujte jednou, v Nastavení → Integrace</b> — HuanOffice vypíše kódovací agenty, které na tomto počítači najde, a zapíše skill do každého, který vyberete. Nebo si skill stáhněte jako zip, případně spusťte <code>npx skills add zhoushenghuan67/genoffice</code>. Příkazy a celý pracovní postup najdete v sekci <a href="#command-line-and-agent-skill">Příkazový řádek a agentní skill</a>.</td>
 </tr>
 </table>
 
@@ -286,7 +286,7 @@ MCP klientem.
 | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Nastavení → Integrace** v aplikaci   | Vypíše agenty nalezené na tomto počítači; jedním kliknutím zapíše skill do každého, který vyberete. Když nové vydání HuanOffice přinese novější skill, objeví se tlačítko **Aktualizovat**. |
 | **Stáhnout jako zip** na téže stránce  | Rozložení, které claude.ai, desktopové aplikace Claude a další asistenti přijímají jako nahraný skill.                                                                                     |
-| `npx skills add genspark-ai/genoffice` | Nainstaluje z tohoto repozitáře do jakéhokoli agenta podporujícího skilly.                                                                                                                 |
+| `npx skills add zhoushenghuan67/genoffice` | Nainstaluje z tohoto repozitáře do jakéhokoli agenta podporujícího skilly.                                                                                                                 |
 
 Pak začněte nový chat a požádejte o dokument. Skill agenta naučí, kdy sáhnout
 po `huanoffice`, jak si soubor přečíst před úpravou a jak zkontrolovat vlastní
@@ -398,16 +398,16 @@ poskytovateli nastavenému v HuanOffice.
 
 | Platforma                            | Požadavky                                             | Stažení                                                                                        |
 | ------------------------------------ | ----------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| **macOS** — Apple Silicon (arm64)    | macOS 11+                                             | [Nejnovější `.dmg` (arm64)](https://github.com/genspark-ai/genoffice/releases/latest)          |
-| **macOS** — Intel (x64)              | macOS 11+                                             | [Nejnovější `.dmg` (x64)](https://github.com/genspark-ai/genoffice/releases/latest)            |
-| **Windows** (x64, většina PC)        | Windows 10+, Intel/AMD                                | [Nejnovější instalátor `-x64.exe`](https://github.com/genspark-ai/genoffice/releases/latest)   |
-| **Windows** na Arm (ARM64)           | Windows 11 na Arm (Snapdragon X a podobné)            | [Nejnovější instalátor `-arm64.exe`](https://github.com/genspark-ai/genoffice/releases/latest) |
-| **Linux** — Debian / Ubuntu          | x86_64, glibc 2.34+ (Ubuntu 22.04 nebo novější)       | [Nejnovější `.deb`](https://github.com/genspark-ai/genoffice/releases/latest)                  |
-| **Linux** — Fedora / RHEL / openSUSE | x86_64, glibc 2.34+ (Fedora 35+, RHEL 9+, Leap 15.6+) | [Nejnovější `.rpm`](https://github.com/genspark-ai/genoffice/releases/latest)                  |
-| **Linux** — ostatní distribuce       | x86_64, glibc 2.34+, FUSE 2                           | [Nejnovější `.AppImage`](https://github.com/genspark-ai/genoffice/releases/latest)             |
+| **macOS** — Apple Silicon (arm64)    | macOS 11+                                             | [Nejnovější `.dmg` (arm64)](https://github.com/zhoushenghuan67/genoffice/releases/latest)          |
+| **macOS** — Intel (x64)              | macOS 11+                                             | [Nejnovější `.dmg` (x64)](https://github.com/zhoushenghuan67/genoffice/releases/latest)            |
+| **Windows** (x64, většina PC)        | Windows 10+, Intel/AMD                                | [Nejnovější instalátor `-x64.exe`](https://github.com/zhoushenghuan67/genoffice/releases/latest)   |
+| **Windows** na Arm (ARM64)           | Windows 11 na Arm (Snapdragon X a podobné)            | [Nejnovější instalátor `-arm64.exe`](https://github.com/zhoushenghuan67/genoffice/releases/latest) |
+| **Linux** — Debian / Ubuntu          | x86_64, glibc 2.34+ (Ubuntu 22.04 nebo novější)       | [Nejnovější `.deb`](https://github.com/zhoushenghuan67/genoffice/releases/latest)                  |
+| **Linux** — Fedora / RHEL / openSUSE | x86_64, glibc 2.34+ (Fedora 35+, RHEL 9+, Leap 15.6+) | [Nejnovější `.rpm`](https://github.com/zhoushenghuan67/genoffice/releases/latest)                  |
+| **Linux** — ostatní distribuce       | x86_64, glibc 2.34+, FUSE 2                           | [Nejnovější `.AppImage`](https://github.com/zhoushenghuan67/genoffice/releases/latest)             |
 
 Všechny sestavení pocházejí z `main`; instalátory pro macOS a Windows jsou
-podepsané. Starší verze jsou na stránce [Releases](https://github.com/genspark-ai/genoffice/releases).
+podepsané. Starší verze jsou na stránce [Releases](https://github.com/zhoushenghuan67/genoffice/releases).
 
 <details>
 <summary><b>Instalace na Linuxu</b></summary>
@@ -481,9 +481,9 @@ pull requestů najdete v [CONTRIBUTING.md](../../CONTRIBUTING.md).
 HuanOffice je v aktivním vývoji a vaše zpětná vazba jej utváří.
 
 - **Nahlaste chybu nebo navrhněte funkci** v
-  [GitHub Issues](https://github.com/genspark-ai/genoffice/issues).
+  [GitHub Issues](https://github.com/zhoushenghuan67/genoffice/issues).
 - **Připojte se ke skupinovému chatu HuanOffice** na
-  [GenTeam](https://genoffice.ai/join), kde si můžete promluvit s týmem
+  [GenTeam](https://github.com/zhoushenghuan67/genoffice), kde si můžete promluvit s týmem
   i ostatními uživateli.
 - **Ohvězdičkujte repozitář**, pokud je pro vás HuanOffice užitečný — je to
   nejlepší způsob, jak projekt podpořit.
@@ -637,8 +637,9 @@ MIT/Apache-2.0/BSD-3-Clause/OFL.
 
 HuanOffice je licencován pod [Apache License 2.0](../../LICENSE), s jednou
 výjimkou: adresář `ee/` je vyhrazen pro budoucí podnikové moduly a je kryt
-[HuanOffice Enterprise License](../../ee/LICENSE).
+[GenOffice Enterprise License](../../ee/LICENSE).
 
-Názvy a loga HuanOffice a Genspark jsou ochranné známky společnosti Mainfunc,
-Inc. Licence Apache-2.0 neuděluje oprávnění je používat (viz oddíl 6); forky
-by měly používat vlastní branding.
+Názvy a loga GenOffice a Genspark jsou ochranné známky společnosti Mainfunc,
+Inc. Licence Apache-2.0 neuděluje oprávnění je používat (viz oddíl 6). Tento
+fork používá vlastní branding HuanOffice, který není ochrannou známkou
+společnosti Mainfunc, Inc.

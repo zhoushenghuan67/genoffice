@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://genoffice.ai/">
+  <a href="https://github.com/zhoushenghuan67/genoffice/">
     <picture>
       <source srcset="../assets/readme/hero-dark.webp" media="(prefers-color-scheme: dark)">
       <img src="../assets/readme/hero.webp" alt="HuanOffice — bộ ứng dụng văn phòng AI mã nguồn mở: Docs, Sheets, Slides, PDF, Markdown và HTML với panel AI tích hợp sẵn" width="100%">
@@ -13,10 +13,10 @@
 Tệp Word, Excel, PowerPoint và PDF do bạn và AI của bạn cùng chỉnh sửa, được lưu lại đúng định dạng gốc.</p>
 
 <p align="center">
-  <a href="../../LICENSE"><img src="https://img.shields.io/github/license/genspark-ai/genoffice" alt="License: Apache-2.0"></a>
-  <a href="https://github.com/genspark-ai/genoffice/releases/latest"><img src="https://img.shields.io/github/v/release/genspark-ai/genoffice" alt="Latest release"></a>
-  <a href="https://github.com/genspark-ai/genoffice/releases"><img src="https://img.shields.io/github/downloads/genspark-ai/genoffice/total" alt="Downloads"></a>
-  <a href="https://github.com/genspark-ai/genoffice/stargazers"><img src="https://img.shields.io/github/stars/genspark-ai/genoffice?style=flat" alt="GitHub stars"></a>
+  <a href="../../LICENSE"><img src="https://img.shields.io/github/license/zhoushenghuan67/genoffice" alt="License: Apache-2.0"></a>
+  <a href="https://github.com/zhoushenghuan67/genoffice/releases/latest"><img src="https://img.shields.io/github/v/release/zhoushenghuan67/genoffice" alt="Latest release"></a>
+  <a href="https://github.com/zhoushenghuan67/genoffice/releases"><img src="https://img.shields.io/github/downloads/zhoushenghuan67/genoffice/total" alt="Downloads"></a>
+  <a href="https://github.com/zhoushenghuan67/genoffice/stargazers"><img src="https://img.shields.io/github/stars/zhoushenghuan67/genoffice?style=flat" alt="GitHub stars"></a>
   <a href="https://x.com/merrickbuilds"><img src="https://img.shields.io/badge/follow-%40merrickbuilds-000000?logo=x&logoColor=white" alt="Follow @merrickbuilds on X"></a>
 </p>
 
@@ -27,8 +27,8 @@ Tệp Word, Excel, PowerPoint và PDF do bạn và AI của bạn cùng chỉnh 
   <a href="#skills"><b>Skill</b></a> ·
   <a href="#command-line-and-agent-skill"><b>CLI</b></a> ·
   <a href="#mcp-server"><b>MCP</b></a> ·
-  <a href="https://genoffice.ai/"><b>Trang chủ</b></a> ·
-  <a href="https://genoffice.ai/join"><b>Cộng đồng</b></a> ·
+  <a href="https://github.com/zhoushenghuan67/genoffice/"><b>Trang chủ</b></a> ·
+  <a href="https://github.com/zhoushenghuan67/genoffice"><b>Cộng đồng</b></a> ·
   <a href="https://x.com/merrickbuilds"><b>X</b></a> ·
   <a href="../../PRIVACY.md"><b>Quyền riêng tư</b></a>
 </p>
@@ -71,9 +71,9 @@ soạn thảo đọc tệp, thực hiện thay đổi, và chỉ cho bạn chín
   chuyển đổi, đọc và chỉnh sửa tệp Office thật ngay trên máy của bạn mà
   không cần mở cửa sổ nào.
 
-**Tải ngay:** [macOS](https://github.com/genspark-ai/genoffice/releases/latest) (Apple Silicon và Intel) ·
-[Windows](https://github.com/genspark-ai/genoffice/releases/latest) (x64 và Arm) ·
-[Linux](https://github.com/genspark-ai/genoffice/releases/latest) (deb, rpm, AppImage) —
+**Tải ngay:** [macOS](https://github.com/zhoushenghuan67/genoffice/releases/latest) (Apple Silicon và Intel) ·
+[Windows](https://github.com/zhoushenghuan67/genoffice/releases/latest) (x64 và Arm) ·
+[Linux](https://github.com/zhoushenghuan67/genoffice/releases/latest) (deb, rpm, AppImage) —
 chi tiết và yêu cầu hệ thống xem mục [Tải xuống](#download).
 
 ## Demo
@@ -288,7 +288,7 @@ khi <code>huanoffice create</code> lắp <code>.pptx</code> và
 <td><b>Cài một lần, từ Settings → Integrations</b> — HuanOffice liệt kê các
 agent lập trình tìm thấy trên máy này và ghi skill vào mỗi agent bạn chọn.
 Hoặc tải skill dưới dạng zip, hoặc chạy <code>npx skills add
-genspark-ai/genoffice</code>. Các lệnh và toàn bộ quy trình nằm ở
+zhoushenghuan67/genoffice</code>. Các lệnh và toàn bộ quy trình nằm ở
 <a href="#command-line-and-agent-skill">Dòng lệnh và agent skill</a>.</td>
 </tr>
 </table>
@@ -424,7 +424,7 @@ OpenCode và Windsurf ngay từ đầu, bất kỳ agent nào đọc được sk
 | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Settings → Integrations** trong ứng dụng | Liệt kê các agent tìm thấy trên máy này; một cú bấm ghi skill vào từng agent bạn chọn. Nút **Update** xuất hiện khi một bản phát hành HuanOffice mang skill mới hơn. |
 | **Download as zip** trên cùng trang        | Đúng cấu trúc claude.ai, ứng dụng Claude desktop và các trợ lý khác chấp nhận như skill tải lên.                                                                    |
-| `npx skills add genspark-ai/genoffice`     | Cài từ kho lưu trữ này vào bất kỳ agent tương thích skills nào.                                                                                                     |
+| `npx skills add zhoushenghuan67/genoffice`     | Cài từ kho lưu trữ này vào bất kỳ agent tương thích skills nào.                                                                                                     |
 
 Sau đó mở một cuộc trò chuyện mới và yêu cầu một tài liệu. Skill dạy agent
 khi nào nên dùng tới `huanoffice`, cách đọc tệp trước khi sửa, và cách tự
@@ -552,17 +552,17 @@ hình trong HuanOffice.
 
 | Nền tảng                             | Yêu cầu                                               | Tải xuống                                                                                   |
 | ------------------------------------ | ----------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| **macOS** — Apple Silicon (arm64)    | macOS 11+                                             | [`.dmg` mới nhất (arm64)](https://github.com/genspark-ai/genoffice/releases/latest)         |
-| **macOS** — Intel (x64)              | macOS 11+                                             | [`.dmg` mới nhất (x64)](https://github.com/genspark-ai/genoffice/releases/latest)           |
-| **Windows** (x64, đa số máy tính)    | Windows 10+, Intel/AMD                                | [Trình cài `-x64.exe` mới nhất](https://github.com/genspark-ai/genoffice/releases/latest)   |
-| **Windows** on Arm (ARM64)           | Windows 11 on Arm (Snapdragon X và tương tự)          | [Trình cài `-arm64.exe` mới nhất](https://github.com/genspark-ai/genoffice/releases/latest) |
-| **Linux** — Debian / Ubuntu          | x86_64, glibc 2.34+ (Ubuntu 22.04 trở lên)            | [`.deb` mới nhất](https://github.com/genspark-ai/genoffice/releases/latest)                 |
-| **Linux** — Fedora / RHEL / openSUSE | x86_64, glibc 2.34+ (Fedora 35+, RHEL 9+, Leap 15.6+) | [`.rpm` mới nhất](https://github.com/genspark-ai/genoffice/releases/latest)                 |
-| **Linux** — các bản phân phối khác   | x86_64, glibc 2.34+, FUSE 2                           | [`.AppImage` mới nhất](https://github.com/genspark-ai/genoffice/releases/latest)            |
+| **macOS** — Apple Silicon (arm64)    | macOS 11+                                             | [`.dmg` mới nhất (arm64)](https://github.com/zhoushenghuan67/genoffice/releases/latest)         |
+| **macOS** — Intel (x64)              | macOS 11+                                             | [`.dmg` mới nhất (x64)](https://github.com/zhoushenghuan67/genoffice/releases/latest)           |
+| **Windows** (x64, đa số máy tính)    | Windows 10+, Intel/AMD                                | [Trình cài `-x64.exe` mới nhất](https://github.com/zhoushenghuan67/genoffice/releases/latest)   |
+| **Windows** on Arm (ARM64)           | Windows 11 on Arm (Snapdragon X và tương tự)          | [Trình cài `-arm64.exe` mới nhất](https://github.com/zhoushenghuan67/genoffice/releases/latest) |
+| **Linux** — Debian / Ubuntu          | x86_64, glibc 2.34+ (Ubuntu 22.04 trở lên)            | [`.deb` mới nhất](https://github.com/zhoushenghuan67/genoffice/releases/latest)                 |
+| **Linux** — Fedora / RHEL / openSUSE | x86_64, glibc 2.34+ (Fedora 35+, RHEL 9+, Leap 15.6+) | [`.rpm` mới nhất](https://github.com/zhoushenghuan67/genoffice/releases/latest)                 |
+| **Linux** — các bản phân phối khác   | x86_64, glibc 2.34+, FUSE 2                           | [`.AppImage` mới nhất](https://github.com/zhoushenghuan67/genoffice/releases/latest)            |
 
 Mọi bản dựng đều đến từ `main`; trình cài macOS và Windows có ký số. Các
 phiên bản cũ nằm trên trang
-[Releases](https://github.com/genspark-ai/genoffice/releases).
+[Releases](https://github.com/zhoushenghuan67/genoffice/releases).
 
 <details>
 <summary><b>Cài trên Linux</b></summary>
@@ -637,9 +637,9 @@ Xem [CONTRIBUTING.md](../../CONTRIBUTING.md) để biết các kiểm tra mọi 
 HuanOffice đang được phát triển liên tục và phản hồi của bạn định hình nó.
 
 - **Báo lỗi hoặc đề xuất tính năng** trong
-  [GitHub Issues](https://github.com/genspark-ai/genoffice/issues).
+  [GitHub Issues](https://github.com/zhoushenghuan67/genoffice/issues).
 - **Tham gia trò chuyện nhóm HuanOffice** trên
-  [GenTeam](https://genoffice.ai/join) để nói chuyện với đội ngũ và những
+  [GenTeam](https://github.com/zhoushenghuan67/genoffice) để nói chuyện với đội ngũ và những
   người dùng khác.
 - **Theo dõi [@merrickbuilds](https://x.com/merrickbuilds) trên X** để nhận
   ghi chú phát hành, demo và những gì đang được xây tiếp.
@@ -793,9 +793,9 @@ MIT/Apache-2.0/BSD-3-Clause/OFL.
 
 HuanOffice được cấp phép theo [Giấy phép Apache
 2.0](../../LICENSE), với một ngoại lệ: thư mục `ee/` được dành cho các mô
-đun doanh nghiệp tương lai và chịu sự điều chỉnh của [HuanOffice Enterprise
+đun doanh nghiệp tương lai và chịu sự điều chỉnh của [GenOffice Enterprise
 License](../../ee/LICENSE).
 
-Tên và logo HuanOffice và Genspark là nhãn hiệu của Mainfunc, Inc. Giấy phép
-Apache-2.0 không cấp quyền sử dụng chúng (xem mục 6); các fork nên dùng
-thương hiệu riêng của mình.
+Tên và logo GenOffice và Genspark là nhãn hiệu của Mainfunc, Inc. Giấy phép
+Apache-2.0 không cấp quyền sử dụng chúng (xem mục 6). Fork này dùng thương
+hiệu HuanOffice riêng, không phải nhãn hiệu của Mainfunc, Inc.

@@ -1,5 +1,11 @@
+> **This is a fork of [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) (GenOffice), rebranded as HuanOffice.**
+>
+> GenOffice is a trademark of Mainfunc, Inc. This fork is an independent Apache-2.0
+> licensed derivative and is **not affiliated with or endorsed by Mainfunc, Inc.**
+> See [LICENSE](LICENSE) and [NOTICE](NOTICE) for the upstream attribution.
+
 <p align="center">
-  <a href="https://genoffice.ai/">
+  <a href="https://github.com/zhoushenghuan67/genoffice/">
     <picture>
       <source srcset="docs/assets/readme/hero-dark.webp" media="(prefers-color-scheme: dark)">
       <img src="docs/assets/readme/hero.webp" alt="HuanOffice — the open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML with a built-in AI panel" width="100%">
@@ -9,14 +15,14 @@
 
 <h1 align="center">HuanOffice</h1>
 
-<p align="center"><b>The world's first full-featured open-source AI Office suite.</b><br>
+<p align="center"><b>A full-featured open-source AI Office suite.</b><br>
 Word, Excel, PowerPoint and PDF files, edited by you and your AI, saved back in the real formats.</p>
 
 <p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/genspark-ai/genoffice" alt="License: Apache-2.0"></a>
-  <a href="https://github.com/genspark-ai/genoffice/releases/latest"><img src="https://img.shields.io/github/v/release/genspark-ai/genoffice" alt="Latest release"></a>
-  <a href="https://github.com/genspark-ai/genoffice/releases"><img src="https://img.shields.io/github/downloads/genspark-ai/genoffice/total" alt="Downloads"></a>
-  <a href="https://github.com/genspark-ai/genoffice/stargazers"><img src="https://img.shields.io/github/stars/genspark-ai/genoffice?style=flat" alt="GitHub stars"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/zhoushenghuan67/genoffice" alt="License: Apache-2.0"></a>
+  <a href="https://github.com/zhoushenghuan67/genoffice/releases/latest"><img src="https://img.shields.io/github/v/release/zhoushenghuan67/genoffice" alt="Latest release"></a>
+  <a href="https://github.com/zhoushenghuan67/genoffice/releases"><img src="https://img.shields.io/github/downloads/zhoushenghuan67/genoffice/total" alt="Downloads"></a>
+  <a href="https://github.com/zhoushenghuan67/genoffice/stargazers"><img src="https://img.shields.io/github/stars/zhoushenghuan67/genoffice?style=flat" alt="GitHub stars"></a>
   <a href="https://x.com/merrickbuilds"><img src="https://img.shields.io/badge/follow-%40merrickbuilds-000000?logo=x&logoColor=white" alt="Follow @merrickbuilds on X"></a>
 </p>
 
@@ -27,8 +33,8 @@ Word, Excel, PowerPoint and PDF files, edited by you and your AI, saved back in 
   <a href="#skills"><b>Skills</b></a> ·
   <a href="#command-line-and-agent-skill"><b>CLI</b></a> ·
   <a href="#mcp-server"><b>MCP</b></a> ·
-  <a href="https://genoffice.ai/"><b>Website</b></a> ·
-  <a href="https://genoffice.ai/join"><b>Community</b></a> ·
+  <a href="https://github.com/zhoushenghuan67/genoffice/"><b>Website</b></a> ·
+  <a href="https://github.com/zhoushenghuan67/genoffice"><b>Community</b></a> ·
   <a href="https://x.com/merrickbuilds"><b>X</b></a> ·
   <a href="PRIVACY.md"><b>Privacy</b></a>
 </p>
@@ -65,9 +71,9 @@ file, makes the change, and shows you exactly what it touched.
   and Windsurf, so a coding agent can create, convert, read and edit real
   Office files on your machine without opening a window.
 
-**Get it:** [macOS](https://github.com/genspark-ai/genoffice/releases/latest) (Apple Silicon and Intel) ·
-[Windows](https://github.com/genspark-ai/genoffice/releases/latest) (x64 and Arm) ·
-[Linux](https://github.com/genspark-ai/genoffice/releases/latest) (deb, rpm, AppImage) —
+**Get it:** [macOS](https://github.com/zhoushenghuan67/genoffice/releases/latest) (Apple Silicon and Intel) ·
+[Windows](https://github.com/zhoushenghuan67/genoffice/releases/latest) (x64 and Arm) ·
+[Linux](https://github.com/zhoushenghuan67/genoffice/releases/latest) (deb, rpm, AppImage) —
 details and requirements in [Download](#download).
 
 ## Demo
@@ -228,7 +234,7 @@ same engines as the apps, without opening a window.
 </tr>
 <tr>
 <td><b>One prompt to your agent</b> — "Build an eight-slide deck about the Solar System." The agent reads the skill, writes a style sheet, an outline and one page spec per slide, generates the two photos with <code>huanoffice image</code>, and lets <code>huanoffice slides check</code> reject anything that overflows or overlaps before <code>huanoffice create</code> assembles the <code>.pptx</code> and <code>slides render</code> hands back a PNG per slide to look at.</td>
-<td><b>Install once, from Settings → Integrations</b> — HuanOffice lists the coding agents it finds on this computer and writes the skill into each one you pick. Or download the skill as a zip, or run <code>npx skills add genspark-ai/genoffice</code>. Commands and the full workflow are in <a href="#command-line-and-agent-skill">Command line and agent skill</a>.</td>
+<td><b>Install once, from Settings → Integrations</b> — HuanOffice lists the coding agents it finds on this computer and writes the skill into each one you pick. Or download the skill as a zip, or run <code>npx skills add zhoushenghuan67/genoffice</code>. Commands and the full workflow are in <a href="#command-line-and-agent-skill">Command line and agent skill</a>.</td>
 </tr>
 </table>
 
@@ -346,7 +352,7 @@ through the [MCP server](#mcp-server), Claude Desktop and every MCP client.
 | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Settings → Integrations** in the app | Lists the agents found on this computer; one click writes the skill into each one you choose. An **Update** button appears when a HuanOffice release ships a newer skill. |
 | **Download as zip** on the same page   | The layout claude.ai, the Claude desktop apps and other assistants accept as an uploaded skill.                                                                          |
-| `npx skills add genspark-ai/genoffice` | Installs from this repository into any skills-compatible agent.                                                                                                          |
+| `npx skills add zhoushenghuan67/genoffice` | Installs from this repository into any skills-compatible agent.                                                                                                          |
 
 Then start a new chat and ask for a document. The skill teaches the agent when
 to reach for `huanoffice`, how to read a file before editing it, and how to
@@ -472,16 +478,16 @@ the provider configured in HuanOffice.
 
 | Platform                             | Requirements                                          | Download                                                                                  |
 | ------------------------------------ | ----------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| **macOS** — Apple Silicon (arm64)    | macOS 11+                                             | [Latest `.dmg` (arm64)](https://github.com/genspark-ai/genoffice/releases/latest)         |
-| **macOS** — Intel (x64)              | macOS 11+                                             | [Latest `.dmg` (x64)](https://github.com/genspark-ai/genoffice/releases/latest)           |
-| **Windows** (x64, most PCs)          | Windows 10+, Intel/AMD                                | [Latest `-x64.exe` installer](https://github.com/genspark-ai/genoffice/releases/latest)   |
-| **Windows** on Arm (ARM64)           | Windows 11 on Arm (Snapdragon X and similar)          | [Latest `-arm64.exe` installer](https://github.com/genspark-ai/genoffice/releases/latest) |
-| **Linux** — Debian / Ubuntu          | x86_64, glibc 2.34+ (Ubuntu 22.04 or newer)           | [Latest `.deb`](https://github.com/genspark-ai/genoffice/releases/latest)                 |
-| **Linux** — Fedora / RHEL / openSUSE | x86_64, glibc 2.34+ (Fedora 35+, RHEL 9+, Leap 15.6+) | [Latest `.rpm`](https://github.com/genspark-ai/genoffice/releases/latest)                 |
-| **Linux** — other distributions      | x86_64, glibc 2.34+, FUSE 2                           | [Latest `.AppImage`](https://github.com/genspark-ai/genoffice/releases/latest)            |
+| **macOS** — Apple Silicon (arm64)    | macOS 11+                                             | [Latest `.dmg` (arm64)](https://github.com/zhoushenghuan67/genoffice/releases/latest)         |
+| **macOS** — Intel (x64)              | macOS 11+                                             | [Latest `.dmg` (x64)](https://github.com/zhoushenghuan67/genoffice/releases/latest)           |
+| **Windows** (x64, most PCs)          | Windows 10+, Intel/AMD                                | [Latest `-x64.exe` installer](https://github.com/zhoushenghuan67/genoffice/releases/latest)   |
+| **Windows** on Arm (ARM64)           | Windows 11 on Arm (Snapdragon X and similar)          | [Latest `-arm64.exe` installer](https://github.com/zhoushenghuan67/genoffice/releases/latest) |
+| **Linux** — Debian / Ubuntu          | x86_64, glibc 2.34+ (Ubuntu 22.04 or newer)           | [Latest `.deb`](https://github.com/zhoushenghuan67/genoffice/releases/latest)                 |
+| **Linux** — Fedora / RHEL / openSUSE | x86_64, glibc 2.34+ (Fedora 35+, RHEL 9+, Leap 15.6+) | [Latest `.rpm`](https://github.com/zhoushenghuan67/genoffice/releases/latest)                 |
+| **Linux** — other distributions      | x86_64, glibc 2.34+, FUSE 2                           | [Latest `.AppImage`](https://github.com/zhoushenghuan67/genoffice/releases/latest)            |
 
 All builds come from `main`; the macOS and Windows installers are signed.
-Older versions are on the [Releases](https://github.com/genspark-ai/genoffice/releases) page.
+Older versions are on the [Releases](https://github.com/zhoushenghuan67/genoffice/releases) page.
 
 <details>
 <summary><b>Installing on Linux</b></summary>
@@ -555,9 +561,9 @@ change must pass and how pull requests land.
 HuanOffice is in active development and your feedback shapes it.
 
 - **Report a bug or request a feature** in
-  [GitHub Issues](https://github.com/genspark-ai/genoffice/issues).
+  [GitHub Issues](https://github.com/zhoushenghuan67/genoffice/issues).
 - **Join the HuanOffice group chat** on
-  [GenTeam](https://genoffice.ai/join) to talk to the team and other users.
+  [GenTeam](https://github.com/zhoushenghuan67/genoffice) to talk to the team and other users.
 - **Follow [@merrickbuilds](https://x.com/merrickbuilds) on X** for release
   notes, demos and what is being built next.
 - **Star the repo** if HuanOffice is useful to you — it is the best way to
@@ -708,8 +714,9 @@ MIT/Apache-2.0/BSD-3-Clause/OFL.
 
 HuanOffice is licensed under the [Apache License 2.0](LICENSE), with one
 exception: the `ee/` directory is reserved for future enterprise modules and
-is covered by the [HuanOffice Enterprise License](ee/LICENSE).
+is covered by the [GenOffice Enterprise License](ee/LICENSE).
 
-The HuanOffice and Genspark names and logos are trademarks of Mainfunc, Inc.
-The Apache-2.0 license does not grant permission to use them (see section 6);
-forks should use their own branding.
+The GenOffice and Genspark names and logos are trademarks of Mainfunc, Inc.
+The Apache-2.0 license does not grant permission to use them (see section 6).
+This fork uses its own HuanOffice branding, which is not a Mainfunc, Inc.
+trademark.

@@ -1,5 +1,10 @@
+> **本仓库是 [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice)（GenOffice）的换皮分支，重新命名为 HuanOffice。**
+>
+> GenOffice 是 Mainfunc, Inc. 的注册商标。本仓库是基于 Apache-2.0 的独立衍生版本，
+> **与 Mainfunc, Inc. 无隶属或背书关系**。上游署名见 [LICENSE](LICENSE) 与 [NOTICE](NOTICE)。
+
 <p align="center">
-  <a href="https://genoffice.ai/">
+  <a href="https://github.com/zhoushenghuan67/genoffice/">
     <picture>
       <source srcset="../assets/readme/hero-dark.webp" media="(prefers-color-scheme: dark)">
       <img src="../assets/readme/hero.webp" alt="HuanOffice —— 开源 AI 办公套件：Docs、Sheets、Slides、PDF、Markdown 和 HTML，内置 AI 面板" width="100%">
@@ -9,14 +14,14 @@
 
 <h1 align="center">HuanOffice</h1>
 
-<p align="center"><b>全球首款功能完整的开源 AI 办公套件。</b><br>
+<p align="center"><b>功能完整的开源 AI 办公套件。</b><br>
 Word、Excel、PowerPoint 和 PDF 文件，由你与你的 AI 共同编辑，并以原生格式保存。</p>
 
 <p align="center">
-  <a href="../../LICENSE"><img src="https://img.shields.io/github/license/genspark-ai/genoffice" alt="许可证：Apache-2.0"></a>
-  <a href="https://github.com/genspark-ai/genoffice/releases/latest"><img src="https://img.shields.io/github/v/release/genspark-ai/genoffice" alt="最新版本"></a>
-  <a href="https://github.com/genspark-ai/genoffice/releases"><img src="https://img.shields.io/github/downloads/genspark-ai/genoffice/total" alt="下载量"></a>
-  <a href="https://github.com/genspark-ai/genoffice/stargazers"><img src="https://img.shields.io/github/stars/genspark-ai/genoffice?style=flat" alt="GitHub Star 数"></a>
+  <a href="../../LICENSE"><img src="https://img.shields.io/github/license/zhoushenghuan67/genoffice" alt="许可证：Apache-2.0"></a>
+  <a href="https://github.com/zhoushenghuan67/genoffice/releases/latest"><img src="https://img.shields.io/github/v/release/zhoushenghuan67/genoffice" alt="最新版本"></a>
+  <a href="https://github.com/zhoushenghuan67/genoffice/releases"><img src="https://img.shields.io/github/downloads/zhoushenghuan67/genoffice/total" alt="下载量"></a>
+  <a href="https://github.com/zhoushenghuan67/genoffice/stargazers"><img src="https://img.shields.io/github/stars/zhoushenghuan67/genoffice?style=flat" alt="GitHub Star 数"></a>
 </p>
 
 <p align="center"><a href="../../README.md">English</a> · <a href="README.es.md">Español</a> · <a href="README.pt-BR.md">Português (Brasil)</a> · <a href="README.de.md">Deutsch</a> · <a href="README.fr.md">Français</a> · <b>简体中文</b> · <a href="README.zh-TW.md">繁體中文</a> · <a href="README.ko.md">한국어</a> · <a href="README.ja.md">日本語</a> · <a href="README.ar.md">العربية</a> · <a href="README.ru.md">Русский</a> · <a href="README.it.md">Italiano</a> · <a href="README.nl.md">Nederlands</a> · <a href="README.pl.md">Polski</a> · <a href="README.cs.md">Čeština</a> · <a href="README.id.md">Bahasa Indonesia</a> · <a href="README.ms.md">Bahasa Melayu</a> · <a href="README.th.md">ไทย</a> · <a href="README.hi.md">हिन्दी</a> · <a href="README.he.md">עברית</a> · <a href="README.vi.md">Tiếng Việt</a></p>
@@ -26,8 +31,8 @@ Word、Excel、PowerPoint 和 PDF 文件，由你与你的 AI 共同编辑，并
   <a href="#skills"><b>Skills</b></a> ·
   <a href="#command-line-and-agent-skill"><b>CLI</b></a> ·
   <a href="#mcp-server"><b>MCP</b></a> ·
-  <a href="https://genoffice.ai/"><b>官网</b></a> ·
-  <a href="https://genoffice.ai/join"><b>社区</b></a> ·
+  <a href="https://github.com/zhoushenghuan67/genoffice/"><b>官网</b></a> ·
+  <a href="https://github.com/zhoushenghuan67/genoffice"><b>社区</b></a> ·
   <a href="../../PRIVACY.md"><b>隐私</b></a>
 </p>
 
@@ -52,9 +57,9 @@ PDF、Markdown 和 HTML，并在每份文档旁边配备一个 AI 智能体 —�
   的 agent skill，让编程智能体无需打开任何窗口，就能在你的电脑上创建、转换、
   读取和编辑真正的 Office 文件。
 
-**获取：** [macOS](https://github.com/genspark-ai/genoffice/releases/latest)（Apple Silicon 和 Intel）·
-[Windows](https://github.com/genspark-ai/genoffice/releases/latest)（x64 和 Arm）·
-[Linux](https://github.com/genspark-ai/genoffice/releases/latest)（deb、rpm、AppImage）——
+**获取：** [macOS](https://github.com/zhoushenghuan67/genoffice/releases/latest)（Apple Silicon 和 Intel）·
+[Windows](https://github.com/zhoushenghuan67/genoffice/releases/latest)（x64 和 Arm）·
+[Linux](https://github.com/zhoushenghuan67/genoffice/releases/latest)（deb、rpm、AppImage）——
 详情与系统要求见[下载](#download)。
 
 ## 演示
@@ -173,7 +178,7 @@ Claude Code、Codex、Cursor、Gemini CLI、GitHub Copilot、OpenCode 或 Windsu
 </tr>
 <tr>
 <td><b>给智能体一句提示词</b> —— “制作一份关于太阳系的八页演示文稿。”智能体读取 skill，依次写出样式表、大纲和每页一份的页面规格，用 <code>huanoffice image</code> 生成两张图片，再由 <code>huanoffice slides check</code> 拦下所有溢出或重叠的内容，最后由 <code>huanoffice create</code> 组装出 <code>.pptx</code>，并用 <code>slides render</code> 为每一页交回一张 PNG 供查看。</td>
-<td><b>在设置 → 集成中一次安装</b> —— HuanOffice 会列出在这台电脑上找到的编程智能体，并把 skill 写入你选中的每一个。也可以把 skill 下载为 zip 压缩包，或运行 <code>npx skills add genspark-ai/genoffice</code>。命令和完整工作流见<a href="#command-line-and-agent-skill">命令行与 agent skill</a>。</td>
+<td><b>在设置 → 集成中一次安装</b> —— HuanOffice 会列出在这台电脑上找到的编程智能体，并把 skill 写入你选中的每一个。也可以把 skill 下载为 zip 压缩包，或运行 <code>npx skills add zhoushenghuan67/genoffice</code>。命令和完整工作流见<a href="#command-line-and-agent-skill">命令行与 agent skill</a>。</td>
 </tr>
 </table>
 
@@ -266,7 +271,7 @@ HuanOffice 内置了一批，也接受你自己的，格式与编程智能体所
 | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
 | 应用内的 **设置 → 集成**               | 列出在这台电脑上找到的智能体；一键即可把 skill 写入你选中的每一个。当 HuanOffice 新版本附带更新的 skill 时，会出现**更新**按钮。 |
 | 同一页面上的 **下载为 zip**            | claude.ai、Claude 桌面应用及其他助手可作为上传 skill 接受的目录结构。                                                           |
-| `npx skills add genspark-ai/genoffice` | 从本仓库安装到任何兼容 skills 的智能体。                                                                                        |
+| `npx skills add zhoushenghuan67/genoffice` | 从本仓库安装到任何兼容 skills 的智能体。                                                                                        |
 
 然后开启一个新对话，让它帮你做一份文档。这份 skill 会教智能体何时该用
 `huanoffice`、编辑前如何先读取文件，以及如何检查自己的成果。
@@ -368,16 +373,16 @@ deck_replace(dir, n, page) ×3 · slides_render(file, out)
 
 | 平台                                  | 系统要求                                               | 下载                                                                                   |
 | ------------------------------------- | ------------------------------------------------------ | -------------------------------------------------------------------------------------- |
-| **macOS** —— Apple Silicon (arm64)    | macOS 11+                                              | [最新 `.dmg`（arm64）](https://github.com/genspark-ai/genoffice/releases/latest)       |
-| **macOS** —— Intel (x64)              | macOS 11+                                              | [最新 `.dmg`（x64）](https://github.com/genspark-ai/genoffice/releases/latest)         |
-| **Windows**（x64，大多数 PC）         | Windows 10+，Intel/AMD                                 | [最新 `-x64.exe` 安装程序](https://github.com/genspark-ai/genoffice/releases/latest)   |
-| **Windows** on Arm（ARM64）           | Windows 11 on Arm（Snapdragon X 及同类芯片）           | [最新 `-arm64.exe` 安装程序](https://github.com/genspark-ai/genoffice/releases/latest) |
-| **Linux** —— Debian / Ubuntu          | x86_64，glibc 2.34+（Ubuntu 22.04 或更新）             | [最新 `.deb`](https://github.com/genspark-ai/genoffice/releases/latest)                |
-| **Linux** —— Fedora / RHEL / openSUSE | x86_64，glibc 2.34+（Fedora 35+、RHEL 9+、Leap 15.6+） | [最新 `.rpm`](https://github.com/genspark-ai/genoffice/releases/latest)                |
-| **Linux** —— 其他发行版               | x86_64，glibc 2.34+，FUSE 2                            | [最新 `.AppImage`](https://github.com/genspark-ai/genoffice/releases/latest)           |
+| **macOS** —— Apple Silicon (arm64)    | macOS 11+                                              | [最新 `.dmg`（arm64）](https://github.com/zhoushenghuan67/genoffice/releases/latest)       |
+| **macOS** —— Intel (x64)              | macOS 11+                                              | [最新 `.dmg`（x64）](https://github.com/zhoushenghuan67/genoffice/releases/latest)         |
+| **Windows**（x64，大多数 PC）         | Windows 10+，Intel/AMD                                 | [最新 `-x64.exe` 安装程序](https://github.com/zhoushenghuan67/genoffice/releases/latest)   |
+| **Windows** on Arm（ARM64）           | Windows 11 on Arm（Snapdragon X 及同类芯片）           | [最新 `-arm64.exe` 安装程序](https://github.com/zhoushenghuan67/genoffice/releases/latest) |
+| **Linux** —— Debian / Ubuntu          | x86_64，glibc 2.34+（Ubuntu 22.04 或更新）             | [最新 `.deb`](https://github.com/zhoushenghuan67/genoffice/releases/latest)                |
+| **Linux** —— Fedora / RHEL / openSUSE | x86_64，glibc 2.34+（Fedora 35+、RHEL 9+、Leap 15.6+） | [最新 `.rpm`](https://github.com/zhoushenghuan67/genoffice/releases/latest)                |
+| **Linux** —— 其他发行版               | x86_64，glibc 2.34+，FUSE 2                            | [最新 `.AppImage`](https://github.com/zhoushenghuan67/genoffice/releases/latest)           |
 
 所有构建均来自 `main` 分支；macOS 和 Windows 安装程序均已签名。
-历史版本见 [Releases](https://github.com/genspark-ai/genoffice/releases) 页面。
+历史版本见 [Releases](https://github.com/zhoushenghuan67/genoffice/releases) 页面。
 
 <details>
 <summary><b>在 Linux 上安装</b></summary>
@@ -448,9 +453,9 @@ Sheets 应用的 xlsx sidecar 还需要 Rust 工具链（`cargo` 在 PATH 中）
 HuanOffice 正在积极开发中，你的反馈决定它的走向。
 
 - **报告 bug 或提出功能需求**，请到
-  [GitHub Issues](https://github.com/genspark-ai/genoffice/issues)。
+  [GitHub Issues](https://github.com/zhoushenghuan67/genoffice/issues)。
 - **加入 HuanOffice 群聊**，在
-  [GenTeam](https://genoffice.ai/join) 上与团队和其他用户交流。
+  [GenTeam](https://github.com/zhoushenghuan67/genoffice) 上与团队和其他用户交流。
 - **给仓库点个 Star** —— 如果 HuanOffice 对你有用，这是支持项目最好的方式。
 
 ## 常见问题
@@ -586,7 +591,8 @@ MIT/Apache-2.0/BSD-3-Clause/OFL 许可。
 ## 许可证
 
 HuanOffice 采用 [Apache License 2.0](../../LICENSE) 许可，仅有一处例外：`ee/`
-目录为未来的企业模块预留，受 [HuanOffice 企业许可证](../../ee/LICENSE) 约束。
+目录为未来的企业模块预留，受 [GenOffice 企业许可证](../../ee/LICENSE) 约束。
 
-HuanOffice 和 Genspark 的名称与标识是 Mainfunc, Inc. 的商标。Apache-2.0 许可证
-并不授予使用它们的权利（见第 6 节）；分叉项目请使用自己的品牌。
+GenOffice 和 Genspark 的名称与标识是 Mainfunc, Inc. 的商标。Apache-2.0 许可证
+并不授予使用它们的权利（见第 6 节）。本分叉使用自己的 HuanOffice 标识，
+该标识并非 Mainfunc, Inc. 的商标。
