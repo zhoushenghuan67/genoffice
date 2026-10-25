@@ -47,7 +47,7 @@ export function AskAttachments({
             <img className="kb-ask-attachment-thumb" src={previews[a.path]} alt={a.name} />
           ) : (
             <span className="kb-ask-attachment-icon">
-              <FileBadge ext={a.ext} size={20} />
+              <FileBadge size={20} />
             </span>
           )}
           <span className="kb-ask-attachment-meta">

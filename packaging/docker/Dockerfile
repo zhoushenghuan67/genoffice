@@ -1,7 +1,7 @@
-# GenOffice headless batch conversion image (the batch-conversion slice of
+# HuanOffice headless batch conversion image (the batch-conversion slice of
 # the Docker ask, genoffice#1808; sibling of packaging/flatpak and
 # packaging/nix): wraps the official release deb and drives the app's own
-# --headless-export entry point per file under Xvfb. No GenOffice source is
+# --headless-export entry point per file under Xvfb. No HuanOffice source is
 # rebuilt here, so the conversion behavior is bit-for-bit the release's.
 #
 # Build:
@@ -53,7 +53,7 @@ RUN apt-get update \
 # app-update.yml is exactly how fork/PR builds disable the updater
 # (see apps/shell/electron-builder.cjs — no file, no auto-update), instead of
 # letting the app download and swap binaries under the package manager's feet.
-RUN rm -f /opt/GenOffice/resources/app-update.yml
+RUN rm -f /opt/HuanOffice/resources/app-update.yml
 
 # chromium's setuid sandbox cannot work here (no setuid inside image layers),
 # so the entrypoint passes --no-sandbox; running as a non-root user keeps the

@@ -258,7 +258,7 @@ impl WorkbookSessions {
         let mut file = File::open(&canonical_path)?;
         if is_ole2_container(&mut file)? {
             return Err(SidecarError::Workbook(
-                "This workbook is password-protected. GenOffice Sheets cannot open \
+                "This workbook is password-protected. HuanOffice Sheets cannot open \
                  encrypted workbooks yet."
                     .into(),
             ));

@@ -127,6 +127,12 @@ body.vib .home {
   filter: invert(var(--logo-invert));
 }
 
+/* the cat badge is pure black-and-white; dark themes flip it the same way the
+   lockup does, so the tile reads as a light badge instead of a black blob */
+.cat-badge {
+  filter: invert(var(--logo-invert));
+}
+
 .sidebar-nav {
   display: flex;
   flex-direction: column;

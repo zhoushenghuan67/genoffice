@@ -18,12 +18,12 @@
 let
   version = "0.11.0";
   src = fetchurl {
-    url = "https://github.com/genspark-ai/genoffice/releases/download/v${version}/GenOffice-${version}.AppImage";
+    url = "https://github.com/genspark-ai/genoffice/releases/download/v${version}/HuanOffice-${version}.AppImage";
     hash = "sha256-iYKCjYfFFe4YzfezxahhCbwMl+FvkBkogZGSnhxOQWw=";
   };
 in
 appimageTools.wrapType2 {
-  pname = "genoffice";
+  pname = "huanoffice";
   inherit version src;
 
   # the AppImage bundles most Electron deps; these two are the ones Electron
@@ -35,24 +35,24 @@ appimageTools.wrapType2 {
     ];
 
   extraInstallCommands = ''
-    install -Dm644 ${../../apps/shell/build/icons/16x16.png} $out/share/icons/hicolor/16x16/apps/genoffice.png
-    install -Dm644 ${../../apps/shell/build/icons/32x32.png} $out/share/icons/hicolor/32x32/apps/genoffice.png
-    install -Dm644 ${../../apps/shell/build/icons/48x48.png} $out/share/icons/hicolor/48x48/apps/genoffice.png
-    install -Dm644 ${../../apps/shell/build/icons/64x64.png} $out/share/icons/hicolor/64x64/apps/genoffice.png
-    install -Dm644 ${../../apps/shell/build/icons/128x128.png} $out/share/icons/hicolor/128x128/apps/genoffice.png
-    install -Dm644 ${../../apps/shell/build/icons/256x256.png} $out/share/icons/hicolor/256x256/apps/genoffice.png
-    install -Dm644 ${../../apps/shell/build/icons/512x512.png} $out/share/icons/hicolor/512x512/apps/genoffice.png
-    install -Dm644 ${../../apps/shell/build/icons/1024x1024.png} $out/share/icons/hicolor/1024x1024/apps/genoffice.png
+    install -Dm644 ${../../apps/shell/build/icons/16x16.png} $out/share/icons/hicolor/16x16/apps/huanoffice.png
+    install -Dm644 ${../../apps/shell/build/icons/32x32.png} $out/share/icons/hicolor/32x32/apps/huanoffice.png
+    install -Dm644 ${../../apps/shell/build/icons/48x48.png} $out/share/icons/hicolor/48x48/apps/huanoffice.png
+    install -Dm644 ${../../apps/shell/build/icons/64x64.png} $out/share/icons/hicolor/64x64/apps/huanoffice.png
+    install -Dm644 ${../../apps/shell/build/icons/128x128.png} $out/share/icons/hicolor/128x128/apps/huanoffice.png
+    install -Dm644 ${../../apps/shell/build/icons/256x256.png} $out/share/icons/hicolor/256x256/apps/huanoffice.png
+    install -Dm644 ${../../apps/shell/build/icons/512x512.png} $out/share/icons/hicolor/512x512/apps/huanoffice.png
+    install -Dm644 ${../../apps/shell/build/icons/1024x1024.png} $out/share/icons/hicolor/1024x1024/apps/huanoffice.png
     mkdir -p $out/share/applications
-    cat > $out/share/applications/genoffice.desktop <<EOF
+    cat > $out/share/applications/huanoffice.desktop <<EOF
     [Desktop Entry]
-    Name=GenOffice
-    Exec=genoffice %U
+    Name=HuanOffice
+    Exec=huanoffice %U
     Terminal=false
     Type=Application
-    Icon=genoffice
-    StartupWMClass=genoffice
-    Comment=Unified GenOffice shell: one app hosting the docs and sheets modules behind a home/launcher window
+    Icon=huanoffice
+    StartupWMClass=huanoffice
+    Comment=Unified HuanOffice shell: one app hosting the docs and sheets modules behind a home/launcher window
     MimeType=application/vnd.openxmlformats-officedocument.wordprocessingml.document;application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;application/vnd.ms-excel.sheet.macroEnabled.12;application/vnd.openxmlformats-officedocument.presentationml.presentation;application/vnd.ms-excel;text/csv;text/tab-separated-values;application/pdf;text/markdown;text/html;
     Categories=Office;
     EOF

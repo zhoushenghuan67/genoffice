@@ -1084,9 +1084,6 @@ const CLOUD_FILTERS = [
   { key: 'slides', label: 'filterSlides' },
 ] as const satisfies readonly { key: 'all' | CloudProjectKind; label: StringKey }[]
 
-/** module kind → file icon extension */
-const CLOUD_KIND_EXT: Record<string, string> = { docs: 'docx', sheets: 'xlsx', slides: 'pptx' }
-
 /** rows revealed per "load more" step; purely client-side over the local snapshot */
 const CLOUD_REVEAL_STEP = 100
 
@@ -1185,7 +1182,7 @@ function CloudProjectsView() {
             data-tip-place="right"
             onClick={() => openProject(proj.projectUrl)}
           >
-            <FileBadge ext={CLOUD_KIND_EXT[proj.kind] ?? ''} size={24} />
+            <FileBadge size={24} />
             <span className="cloud-row-main">
               <span className="cloud-row-title">{proj.title || t('untitled')}</span>
               <svg
@@ -2259,7 +2256,7 @@ export function Home() {
       <div className="quick-cards">
         {NEW_ITEMS.map((item) => (
           <button key={item.ext} className="quick-card" onClick={() => void item.action()}>
-            <FileBadge ext={item.ext} size={30} />
+            <FileBadge size={30} />
             <span className="quick-text">
               <span className="quick-title-row">
                 <span className="quick-title">{item.title}</span>
@@ -2648,7 +2645,7 @@ export function Home() {
             />
           </span>
           <span className="recent-icon">
-            <FileBadge ext={entry.ext} size={24} />
+            <FileBadge size={24} />
           </span>
           {isRenaming ? (
             <input
@@ -3064,7 +3061,7 @@ export function Home() {
       }}
     >
       <span className="recent-icon">
-        <FileBadge ext={hit.ext} size={24} />
+        <FileBadge size={24} />
       </span>
       <div className="search-main">
         <div className="search-head">

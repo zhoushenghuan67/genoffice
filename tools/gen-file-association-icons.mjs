@@ -4,12 +4,14 @@
  * `icon` field): <type>.icns for the macOS CFBundleDocumentTypes entry and
  * <type>.ico for the NSIS DefaultIcon registry value.
  *
- * Source of truth is the shell renderer's file-type tiles
- * (apps/shell/src/renderer/src/assets/file-*.svg) so Finder/Explorer show the
- * same visual language as the in-app recent-files list. The SVGs are
- * rasterized with the system Chrome via Playwright (transparent background),
- * then packed with `iconutil` (icns, macOS host only) and a hand-rolled
- * PNG-entry ICO container.
+ * Source of truth is the per-type artwork in
+ * (apps/shell/src/renderer/src/assets/file-*.svg). These tiles no longer show
+ * up inside the app - the reskin replaced every in-app document/product tile
+ * with the HuanOffice cat head (assets/huan-cat.svg) - but the OS keeps the
+ * type distinction: Finder/Explorer still show a .docx as a document and a
+ * .xlsx as a spreadsheet. The SVGs are rasterized with the system Chrome via
+ * Playwright (transparent background), then packed with `iconutil` (icns,
+ * macOS host only) and a hand-rolled PNG-entry ICO container.
  *
  * Regenerate after changing any file-*.svg:
  *   node tools/gen-file-association-icons.mjs

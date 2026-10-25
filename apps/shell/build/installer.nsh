@@ -10,7 +10,7 @@
 !include "StrFunc.nsh"
 !include "nsProcess.nsh"
 
-!macro GenOfficeKillHelper NAME
+!macro HuanOfficeKillHelper NAME
   ${nsProcess::FindProcess} "${NAME}" $R0
   ${if} $R0 == 0
     ${nsProcess::KillProcess} "${NAME}" $R0
@@ -65,8 +65,8 @@
   ${endIf}
   ; the stock macro closed every process under $INSTDIR; a killed app can
   ; orphan its helpers, which keep their binaries locked
-  !insertmacro GenOfficeKillHelper "xlsx-sidecar.exe"
-  !insertmacro GenOfficeKillHelper "win-ocr.exe"
+  !insertmacro HuanOfficeKillHelper "xlsx-sidecar.exe"
+  !insertmacro HuanOfficeKillHelper "win-ocr.exe"
   ${nsProcess::Unload}
 !macroend
 
@@ -75,11 +75,11 @@
 ; Scope templates to our ProgIDs (electron-builder uses fileAssociations.name).
 ; A shared .ext\ShellNew would overwrite Office/WPS templates. OOXML files
 ; must be copied from valid packages, never created with NullFile.
-!macro GenOfficeRegisterShellNew EXT PROGID
+!macro HuanOfficeRegisterShellNew EXT PROGID
   WriteRegStr SHELL_CONTEXT "Software\Classes\.${EXT}\${PROGID}\ShellNew" "FileName" "$INSTDIR\resources\shell-new\blank.${EXT}"
 !macroend
 
-!macro GenOfficeUnregisterShellNew EXT PROGID
+!macro HuanOfficeUnregisterShellNew EXT PROGID
   ; Only remove our own registration, including when uninstalling for an update.
   ReadRegStr $0 SHELL_CONTEXT "Software\Classes\.${EXT}\${PROGID}\ShellNew" "FileName"
   ${If} $0 == "$INSTDIR\resources\shell-new\blank.${EXT}"
@@ -90,20 +90,20 @@
 
 !macro customInstall
   Push "$INSTDIR\resources\cli"
-  Call GenOfficeAddToUserPath
-  !insertmacro GenOfficeRegisterShellNew "docx" "Word Document"
-  !insertmacro GenOfficeRegisterShellNew "xlsx" "Excel Workbook"
-  !insertmacro GenOfficeRegisterShellNew "pptx" "PowerPoint Presentation"
+  Call HuanOfficeAddToUserPath
+  !insertmacro HuanOfficeRegisterShellNew "docx" "Word Document"
+  !insertmacro HuanOfficeRegisterShellNew "xlsx" "Excel Workbook"
+  !insertmacro HuanOfficeRegisterShellNew "pptx" "PowerPoint Presentation"
   !insertmacro UPDATEFILEASSOC
 !macroend
 
 !macro customUnInstall
   Push "$INSTDIR\resources\cli"
-  Call un.GenOfficeRemoveFromUserPath
+  Call un.HuanOfficeRemoveFromUserPath
   Push $0
-  !insertmacro GenOfficeUnregisterShellNew "docx" "Word Document"
-  !insertmacro GenOfficeUnregisterShellNew "xlsx" "Excel Workbook"
-  !insertmacro GenOfficeUnregisterShellNew "pptx" "PowerPoint Presentation"
+  !insertmacro HuanOfficeUnregisterShellNew "docx" "Word Document"
+  !insertmacro HuanOfficeUnregisterShellNew "xlsx" "Excel Workbook"
+  !insertmacro HuanOfficeUnregisterShellNew "pptx" "PowerPoint Presentation"
   Pop $0
   !insertmacro UPDATEFILEASSOC
 !macroend
@@ -111,7 +111,7 @@
 !ifndef BUILD_UNINSTALLER
 ${StrStr}
 
-Function GenOfficeAddToUserPath
+Function HuanOfficeAddToUserPath
   Exch $0 ; directory
   Push $1
   Push $2
@@ -141,7 +141,7 @@ FunctionEnd
 ${UnStrStr}
 ${UnStrRep}
 
-Function un.GenOfficeRemoveFromUserPath
+Function un.HuanOfficeRemoveFromUserPath
   Exch $0 ; directory
   Push $1
   Push $2

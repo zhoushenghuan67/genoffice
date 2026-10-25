@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Unpack the extra-data GenOffice deb into /app/extra/app (genoffice#1858).
+"""Unpack the extra-data HuanOffice deb into /app/extra/app (genoffice#1858).
 
 The deb is fetched by flatpak at install time (see the extra-data source in
 com.genoffice.app.json) and lands at /app/extra/genoffice.deb. The freedesktop
@@ -64,11 +64,11 @@ def main():
         tar.extractall(OUT, filter="data")
     os.remove(tar_path)
     os.remove(DEB)
-    binary = os.path.join(OUT, "opt/GenOffice/genoffice")
+    binary = os.path.join(OUT, "opt/HuanOffice/huanoffice")
     if not os.path.isfile(binary):
         die(f"deb payload lacks {binary}")
     os.chmod(binary, os.stat(binary).st_mode | stat.S_IXUSR)
-    print("apply_extra: GenOffice unpacked to", OUT)
+    print("apply_extra: HuanOffice unpacked to", OUT)
 
 
 if __name__ == "__main__":
