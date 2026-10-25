@@ -477,3 +477,31 @@
     transition-duration: 0.01ms !important;
   }
 }
+
+.onb-wechat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  margin-top: 12px;
+  padding: 12px 14px;
+  border: 1px solid var(--onb-border-default);
+  border-radius: 12px;
+  background: var(--onb-bg-subtle);
+}
+
+.onb-wechat-hint {
+  color: var(--onb-text-primary);
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.onb-wechat-qr {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+}

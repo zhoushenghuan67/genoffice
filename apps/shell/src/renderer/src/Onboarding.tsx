@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import appIcon from './assets/app-icon.png'
+import wechatQr from './assets/wechat-search-qr.png'
 import { useI18n } from './locale'
 import type { StringKey } from './locale'
 import './onboarding.css'
@@ -10,19 +11,18 @@ interface OnboardingProps {
 }
 
 interface Slide {
-  titleKey: StringKey
+  /** omitted on promo-only slides that render no heading block */
+  titleKey?: StringKey
   /** 18px dark line right under the title */
-  subtitleKey: StringKey
+  subtitleKey?: StringKey
   /** 16px muted paragraph below the title block */
   bodyKey?: StringKey
   /** render the body in the dimmer footnote gray (slide 3's credits disclaimer) */
   bodyDim?: boolean
   /** community slide shows the credits offer panel with the "Join GenTeam" call-to-action */
   showOffer?: boolean
-  /** closing slide shows the "star us on GitHub" hint */
-  showStar?: boolean
-  /** closing slide explains default-on analytics and how to disable it */
-  showAnalyticsNotice?: boolean
+  /** closing slide shows the WeChat official-account promo (QR banner) */
+  showWechat?: boolean
   art: 'logo' | 'gift' | 'check'
 }
 
@@ -30,12 +30,7 @@ const SLIDES: readonly Slide[] = [
   { titleKey: 'onbTitle1', subtitleKey: 'onbSubtitle1', bodyKey: 'onbBody1', art: 'logo' },
   { titleKey: 'onbTitle2', subtitleKey: 'onbBody2', showOffer: true, art: 'gift' },
   {
-    titleKey: 'onbTitle3',
-    subtitleKey: 'onbBody3',
-    bodyKey: 'onbNote3',
-    bodyDim: true,
-    showStar: true,
-    showAnalyticsNotice: true,
+    showWechat: true,
     art: 'check',
   },
 ]
@@ -113,6 +108,15 @@ export function Onboarding({ onDone }: OnboardingProps) {
     else setIndex((current) => current + 1)
   }
 
+  // second-slide CTA copies the QQ group number; button shows brief feedback
+  const [copied, setCopied] = useState(false)
+  const copyGroup = () => {
+    void window.aiOffice.openGenTeam().then(() => {
+      setCopied(true)
+      window.setTimeout(() => setCopied(false), 1600)
+    })
+  }
+
   // move focus into the dialog on mount so keyboard users start inside it
   // (the container, not a button, so no focus ring shows on open)
   useEffect(() => {
@@ -174,7 +178,7 @@ export function Onboarding({ onDone }: OnboardingProps) {
   })
 
   return (
-    <div className="onb-overlay" role="dialog" aria-modal="true" aria-label={t(slide.titleKey)}>
+    <div className="onb-overlay" role="dialog" aria-modal="true" aria-label={slide.titleKey ? t(slide.titleKey) : t('onbWechatHint')}>
       <div className="onb-card" ref={cardRef} tabIndex={-1}>
         {/* all slides stay mounted, stacked in one grid cell: the card locks to
             the tallest slide's height for the language, so the footer and its
@@ -183,48 +187,30 @@ export function Onboarding({ onDone }: OnboardingProps) {
           {SLIDES.map((s, i) => (
             <div
               className={`onb-slide${i === index ? ' active' : ''}`}
-              key={s.titleKey}
+              key={s.titleKey ?? `slide-${i}`}
               inert={i !== index}
             >
               <SlideArt kind={s.art} />
-              <h2 className="onb-title">{t(s.titleKey)}</h2>
-              <p className="onb-subtitle">{t(s.subtitleKey)}</p>
+              {s.titleKey && <h2 className="onb-title">{t(s.titleKey)}</h2>}
+              {s.subtitleKey && <p className="onb-subtitle">{t(s.subtitleKey)}</p>}
               {s.bodyKey && (
                 <p className={`onb-body${s.bodyDim ? ' onb-body-dim' : ''}`}>{t(s.bodyKey)}</p>
               )}
-              {s.showStar && (
-                <div className="onb-star">
-                  <p className="onb-star-hint">{t('onbStarHint')}</p>
-                  <button
-                    className="onb-star-btn"
-                    onClick={() => void window.aiOffice.openGitHubRepo()}
-                  >
-                    <svg
-                      width="13"
-                      height="13"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      aria-hidden="true"
-                    >
-                      <path d="M12 2.5l2.9 5.9 6.5.9-4.7 4.6 1.1 6.5L12 17.3l-5.8 3.1 1.1-6.5L2.6 9.3l6.5-.9L12 2.5z" />
-                    </svg>
-                    {t('starOnGitHub')}
-                  </button>
-                </div>
-              )}
-              {s.showAnalyticsNotice && (
-                <div className="onb-consent">
-                  <span className="onb-consent-copy">
-                    <span className="onb-consent-title">{t('setAnalytics')}</span>
-                    <span className="onb-consent-desc">{t('setAnalyticsDesc')}</span>
-                  </span>
+              {s.showWechat && (
+                <div className="onb-wechat">
+                  <p className="onb-wechat-hint">{t('onbWechatHint')}</p>
+                  <img
+                    className="onb-wechat-qr"
+                    src={wechatQr}
+                    alt={t('onbWechatHint')}
+                  />
                 </div>
               )}
               {s.showOffer && (
                 <div className="onb-offer">
                   <p className="onb-credits">{renderEmphasis(t('onbCredits'))}</p>
-                  <button className="onb-join" onClick={() => void window.aiOffice.openGenTeam()}>
-                    {t('onbJoinGenTeam')}
+                  <button className="onb-join" onClick={copyGroup}>
+                    {copied ? t('onbCopied') : t('onbJoinGenTeam')}
                     <svg width="11" height="11" viewBox="0 0 12 12" fill="none" aria-hidden="true">
                       <path
                         d="M3.5 8.5 8.5 3.5M4.5 3.5h4v4"
@@ -245,7 +231,7 @@ export function Onboarding({ onDone }: OnboardingProps) {
           <div className="onb-dots">
             {SLIDES.map((s, i) => (
               <button
-                key={s.titleKey}
+                key={s.titleKey ?? `dot-${i}`}
                 className={`onb-dot${i === index ? ' active' : ''}`}
                 aria-label={t('onbStepAria', { n: i + 1, total: SLIDES.length })}
                 aria-current={i === index}
