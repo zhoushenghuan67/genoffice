@@ -1,6 +1,6 @@
-import type { RenderNode, RenderSlide } from '@genoffice/pptx-render'
+import type { RenderNode, RenderSlide } from '@huanoffice/pptx-render'
 
-/** Request/reply the shell relays from `genoffice open --slide/--el` and `genoffice selection`. */
+/** Request/reply the shell relays from `huanoffice open --slide/--el` and `huanoffice selection`. */
 export type ControlRequest =
   { cmd: 'goto'; target: { kind: string; slide?: number; el?: string } } | { cmd: 'selection' }
 

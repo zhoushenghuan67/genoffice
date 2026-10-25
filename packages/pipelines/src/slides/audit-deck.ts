@@ -1,11 +1,11 @@
-import { elementDurableId, openPptx, slideDurableId } from '@genoffice/pptx-engine'
+import { elementDurableId, openPptx, slideDurableId } from '@huanoffice/pptx-engine'
 import {
   buildRenderSlide,
   EMU_PER_PX_96,
   imageSizeFromBytes,
   type FontMetricsProvider,
   type ImageSize,
-} from '@genoffice/pptx-render'
+} from '@huanoffice/pptx-render'
 import { auditSlideFindings, type AuditFinding } from './layout-audit'
 
 export interface DeckAuditPage {

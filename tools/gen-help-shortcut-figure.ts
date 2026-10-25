@@ -102,10 +102,10 @@ async function main(): Promise<void> {
       env: {
         ...hostEnv,
         HOME: home,
-        GENOFFICE_USER_DATA: userData,
-        GENOFFICE_AUTH_DIR: join(home, '.genoffice'),
-        GENOFFICE_NO_SPARE_VIEW: '1',
-        GENOFFICE_LANG: lang,
+        HUANOFFICE_USER_DATA: userData,
+        HUANOFFICE_AUTH_DIR: join(home, '.huanoffice'),
+        HUANOFFICE_NO_SPARE_VIEW: '1',
+        HUANOFFICE_LANG: lang,
       },
     })
 

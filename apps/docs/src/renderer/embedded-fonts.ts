@@ -1,4 +1,4 @@
-import type { EmbeddedFont, EmbeddedFontLineMetrics } from '@genoffice/docx-engine'
+import type { EmbeddedFont, EmbeddedFontLineMetrics } from '@huanoffice/docx-engine'
 import { noteEmbeddedFontsChanged, setEmbeddedLineMetrics } from './line-metrics'
 
 let active: FontFace[] = []

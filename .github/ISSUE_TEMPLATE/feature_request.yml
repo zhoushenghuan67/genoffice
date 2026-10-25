@@ -7,11 +7,11 @@ body:
     attributes:
       label: App
       options:
-        - GenOffice Docs (docs)
-        - GenOffice Sheets (sheets)
-        - GenOffice Slides (slides)
-        - GenOffice PDF (pdf)
-        - GenOffice Markdown (markdown)
+        - HuanOffice Docs (docs)
+        - HuanOffice Sheets (sheets)
+        - HuanOffice Slides (slides)
+        - HuanOffice PDF (pdf)
+        - HuanOffice Markdown (markdown)
         - Shell / home screen
         - AI panel / providers
         - Whole suite

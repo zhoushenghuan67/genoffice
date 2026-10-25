@@ -10,8 +10,8 @@ import {
   formatAddress,
   parseAddress,
   type RangeBounds,
-} from '@genoffice/xlsx-gateway/domain/cell-address'
-import type { CellScalar } from '@genoffice/xlsx-gateway/domain/workbook.types'
+} from '@huanoffice/xlsx-gateway/domain/cell-address'
+import type { CellScalar } from '@huanoffice/xlsx-gateway/domain/workbook.types'
 import { findSheetCellsInFile, sidecarFindAvailable } from '../sidecar-find'
 import { ensureLazyRangeLoaded, readSheetRangeMapped } from '../univer-sync'
 import type { LazyWorkbookState } from '../univer-state'

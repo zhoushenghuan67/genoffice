@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
-import { parseSlide, setRedactExt } from '@genoffice/pptx-engine'
-import { buildRenderSlide, type RenderSlide, type RenderNode } from '@genoffice/pptx-render'
+import { parseSlide, setRedactExt } from '@huanoffice/pptx-engine'
+import { buildRenderSlide, type RenderSlide, type RenderNode } from '@huanoffice/pptx-render'
 import { redactGuardFor } from '../src/renderer/ai/redact-guard'
 
 /**

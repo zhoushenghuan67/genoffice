@@ -1,4 +1,4 @@
-import type { Run } from '@genoffice/docx-engine'
+import type { Run } from '@huanoffice/docx-engine'
 import { dkBorder } from './dark-page'
 
 type RunBorder = NonNullable<Run['bdr']>

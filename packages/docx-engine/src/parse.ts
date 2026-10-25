@@ -1,7 +1,7 @@
 import JSZip from 'jszip'
 import type { JSZipObject } from 'jszip'
 import { LAZY_MEDIA_PLACEHOLDER_BYTES, lazyMediaHashOf, lazyMediaUrl } from './lazy-media'
-import { parseCustGeom } from '@genoffice/pptx-engine/custgeom'
+import { parseCustGeom } from '@huanoffice/pptx-engine/custgeom'
 import { parseChartPartXml } from './chart'
 import { findInkRuns, stripInkRuns } from './ink'
 import { isMetafileMime, metafileToDataUrl } from './metafile'
@@ -6879,7 +6879,7 @@ function hfParagraphs(
       })
     }
     const boxed = hasDeepChild(pNode, TXBX_CONTENT) ? textboxParagraphs(pNode, ctx) : []
-    // runs carrying only w:rPr are a blank line like a bare w:p (genoffice#2116)
+    // runs carrying only w:rPr are a blank line like a bare w:p (huanoffice#2116)
     if (
       runs.length === 0 &&
       !hfOnlyEmptyRuns(pNode) &&

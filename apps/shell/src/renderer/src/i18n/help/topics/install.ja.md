@@ -1,4 +1,4 @@
-# GenOffice のインストール
+# HuanOffice のインストール
 
 すべてのビルドは [Releases ページ](https://github.com/genspark-ai/genoffice/releases/latest) で公開されています。すべて `main` 由来で、macOS と Windows のインストーラーは署名済みです。
 
@@ -18,32 +18,32 @@
 
 ## macOS で
 
-`.dmg` を開いて **GenOffice** を Applications にドラッグします。Intel 版では初回起動時に開いてよいか確認されます。Applications でアプリを右クリック ▸ 開く の順です。これは未署名に見えるディスクイメージに対する Gatekeeper の動作で、ダウンロードの破損ではありません。
+`.dmg` を開いて **HuanOffice** を Applications にドラッグします。Intel 版では初回起動時に開いてよいか確認されます。Applications でアプリを右クリック ▸ 開く の順です。これは未署名に見えるディスクイメージに対する Gatekeeper の動作で、ダウンロードの破損ではありません。
 
 ## Windows で
 
-`.exe` インストーラーを実行します。GenOffice がスタートメニューに追加され、`.docx`、`.xlsx`、`.pptx`、`.pdf` などが登録されるので、ファイルをダブルクリックすれば開きます。
+`.exe` インストーラーを実行します。HuanOffice がスタートメニューに追加され、`.docx`、`.xlsx`、`.pptx`、`.pdf` などが登録されるので、ファイルをダブルクリックすれば開きます。
 
 ## Linux で
 
 **Debian / Ubuntu**
 
 ```sh
-sudo apt install ./genoffice_<version>_amd64.deb
+sudo apt install ./huanoffice_<version>_amd64.deb
 ```
 
 **Fedora / RHEL / openSUSE**
 
 ```sh
-sudo dnf install ./genoffice-<version>.x86_64.rpm     # Fedora / RHEL family
-sudo zypper install ./genoffice-<version>.x86_64.rpm  # openSUSE
+sudo dnf install ./huanoffice-<version>.x86_64.rpm     # Fedora / RHEL family
+sudo zypper install ./huanoffice-<version>.x86_64.rpm  # openSUSE
 ```
 
 **AppImage** — インストールはなしで、そのまま動きます：
 
 ```sh
-chmod +x GenOffice-<version>.AppImage
-./GenOffice-<version>.AppImage
+chmod +x HuanOffice-<version>.AppImage
+./HuanOffice-<version>.AppImage
 ```
 
 FUSE 2 ランタイムが必要です。インストールしたくない場合は `--appimage-extract-and-run` を付けて実行してください。展開されたディレクトリーからサンドボックスが動作します。
@@ -64,4 +64,4 @@ FUSE 2 ランタイムが必要です。インストールしたくない場合�
 
 ## コマンドラインも同梱されています
 
-どのインストールにも `genoffice` コマンドが含まれ、ウィンドウと同じエンジンを動かします。同じファイルをどちらがどう扱うかが変わることがないので、意见が分かれることはありません。macOS と Windows ではアプリバンドルの中にあり、`genoffice install-cli` で `PATH` に追加できます。何ができるかは **コマンドラインとエージェント** を参照してください。
+どのインストールにも `huanoffice` コマンドが含まれ、ウィンドウと同じエンジンを動かします。同じファイルをどちらがどう扱うかが変わることがないので、意见が分かれることはありません。macOS と Windows ではアプリバンドルの中にあり、`huanoffice install-cli` で `PATH` に追加できます。何ができるかは **コマンドラインとエージェント** を参照してください。

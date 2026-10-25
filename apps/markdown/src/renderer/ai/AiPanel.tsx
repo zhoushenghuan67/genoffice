@@ -5,7 +5,7 @@ import {
   type AiModelPickerBridge,
   AiSkillChips,
   AiSkillsMenu,
-} from '@genoffice/ui'
+} from '@huanoffice/ui'
 import { useEffect, useRef, useState } from 'react'
 import type { PointerEvent as ReactPointerEvent, ReactElement, ReactNode } from 'react'
 import {
@@ -14,8 +14,8 @@ import {
   streamText,
   withAttachedSkills,
   type MindMapTreeNode,
-} from '@genoffice/agent-core'
-import { imageGenerationAvailable, type AiSettings } from '@genoffice/ai-provider/browser'
+} from '@huanoffice/agent-core'
+import { imageGenerationAvailable, type AiSettings } from '@huanoffice/ai-provider/browser'
 import {
   AiComposer,
   AiQueueStrip,
@@ -29,7 +29,7 @@ import {
   useChatRunQueue,
   type AiScopeQuoteData,
   type AiTokenUsageView,
-} from '@genoffice/ui'
+} from '@huanoffice/ui'
 import type { Editor } from '@tiptap/core'
 import { aiLangDirective, t as tGlobal, useI18n } from '../i18n/locale'
 import sendEnterOn from '../assets/send-enter-on.png'

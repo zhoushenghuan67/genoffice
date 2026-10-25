@@ -4,7 +4,7 @@ import {
   applyTitlePg,
   type SectionInfo,
   type SectionSettings,
-} from '@genoffice/docx-engine'
+} from '@huanoffice/docx-engine'
 import type { AgentToolDef } from '../../shared/ipc'
 
 /**

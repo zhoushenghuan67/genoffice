@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import type { Lang } from '@genoffice/i18n'
-import type { AiSettings } from '@genoffice/ai-provider/browser'
+import type { Lang } from '@huanoffice/i18n'
+import type { AiSettings } from '@huanoffice/ai-provider/browser'
 import {
   aiModelPickerGroups,
   aiModelPickerSelection,

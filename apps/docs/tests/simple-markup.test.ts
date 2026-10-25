@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import type { Block } from '@genoffice/docx-engine'
+import type { Block } from '@huanoffice/docx-engine'
 import { mergeChangeLines } from '../src/renderer/editor/margin-annotations'
 import {
   blocksHaveRevisions,

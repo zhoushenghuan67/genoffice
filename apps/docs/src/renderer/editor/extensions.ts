@@ -107,7 +107,7 @@ import {
   type TextboxListMarker,
   type ParaFrame,
   type TextFlowDirection,
-} from '@genoffice/docx-engine'
+} from '@huanoffice/docx-engine'
 import {
   substituteBullet,
   markerFallbackFace,
@@ -2095,7 +2095,7 @@ export const DocListItem = Node.create({
         }),
       },
       // our own clipboard HTML: renderHTML emits <div class="doc-li …">, which
-      // no rule matched before r117 — pasting a GenOffice list item degraded it
+      // no rule matched before r117 — pasting a HuanOffice list item degraded it
       // to plain text. kind/ilvl ride in data-para; classes are the fallback.
       {
         tag: 'div.doc-li',
@@ -4247,7 +4247,7 @@ export const DocTable = Node.create({
         },
         // prosemirror-tables previews a column drag by writing px widths onto the
         // colgroup and table; without this ProseMirror treats that as foreign DOM
-        // and redraws the table from the model on every mousemove (genoffice#1156)
+        // and redraws the table from the model on every mousemove (huanoffice#1156)
         ignoreMutation: (mutation) => {
           if (mutation.type === 'selection') return false
           const { target } = mutation

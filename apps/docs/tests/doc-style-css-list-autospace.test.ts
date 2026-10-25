@@ -7,7 +7,7 @@
  */
 import { describe, expect, it } from 'vitest'
 import { Editor } from '@tiptap/core'
-import type { NumberingDef, ParsedDocFull } from '@genoffice/docx-engine'
+import type { NumberingDef, ParsedDocFull } from '@huanoffice/docx-engine'
 import { docStyleCss } from '../src/renderer/doc-style-css'
 import { editorExtensions } from '../src/renderer/editor/extensions'
 

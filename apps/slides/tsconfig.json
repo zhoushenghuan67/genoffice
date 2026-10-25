@@ -7,24 +7,24 @@
     // Pin resolution to this repo's workspace sources (avoids stale types when node_modules links point elsewhere)
     "baseUrl": ".",
     "paths": {
-      "@genoffice/pptx-engine": ["../../packages/pptx-engine/src/index.ts"],
-      "@genoffice/pptx-engine/table-grid": ["../../packages/pptx-engine/src/table-grid.ts"],
-      "@genoffice/pptx-engine/identity": ["../../packages/pptx-engine/src/identity.ts"],
-      "@genoffice/pptx-engine/named-action": ["../../packages/pptx-engine/src/named-action.ts"],
-      "@genoffice/pptx-engine/background-promote": [
+      "@huanoffice/pptx-engine": ["../../packages/pptx-engine/src/index.ts"],
+      "@huanoffice/pptx-engine/table-grid": ["../../packages/pptx-engine/src/table-grid.ts"],
+      "@huanoffice/pptx-engine/identity": ["../../packages/pptx-engine/src/identity.ts"],
+      "@huanoffice/pptx-engine/named-action": ["../../packages/pptx-engine/src/named-action.ts"],
+      "@huanoffice/pptx-engine/background-promote": [
         "../../packages/pptx-engine/src/background-promote.ts"
       ],
-      "@genoffice/pptx-ops": ["../../packages/pptx-ops/src/index.ts"],
-      "@genoffice/pptx-ops/op-docs": ["../../packages/pptx-ops/src/op-docs.ts"],
-      "@genoffice/pptx-ops/font-size": ["../../packages/pptx-ops/src/font-size.ts"],
-      "@genoffice/pptx-render": ["../../packages/pptx-render/src/index.ts"],
-      "@genoffice/pipelines/slides": ["../../packages/pipelines/src/slides/index.ts"],
-      "@genoffice/pipelines/slides/layout-audit": [
+      "@huanoffice/pptx-ops": ["../../packages/pptx-ops/src/index.ts"],
+      "@huanoffice/pptx-ops/op-docs": ["../../packages/pptx-ops/src/op-docs.ts"],
+      "@huanoffice/pptx-ops/font-size": ["../../packages/pptx-ops/src/font-size.ts"],
+      "@huanoffice/pptx-render": ["../../packages/pptx-render/src/index.ts"],
+      "@huanoffice/pipelines/slides": ["../../packages/pipelines/src/slides/index.ts"],
+      "@huanoffice/pipelines/slides/layout-audit": [
         "../../packages/pipelines/src/slides/layout-audit.ts"
       ],
-      "@genoffice/docx-engine/metafile": ["../../packages/docx-engine/src/metafile.ts"],
-      "@genoffice/docx-engine/math": ["../../packages/docx-engine/src/math.ts"],
-      "@genoffice/electron-utils": ["../../packages/electron-utils/src/index.ts"]
+      "@huanoffice/docx-engine/metafile": ["../../packages/docx-engine/src/metafile.ts"],
+      "@huanoffice/docx-engine/math": ["../../packages/docx-engine/src/math.ts"],
+      "@huanoffice/electron-utils": ["../../packages/electron-utils/src/index.ts"]
     }
   },
   "include": ["src", "tests", "electron.vite.config.ts", "vitest.config.ts"]

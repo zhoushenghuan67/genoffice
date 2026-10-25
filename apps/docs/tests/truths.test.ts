@@ -12,7 +12,7 @@ import {
   type ParsedDoc,
   type SectionInfo,
   type SectionSettings,
-} from '@genoffice/docx-engine'
+} from '@huanoffice/docx-engine'
 import {
   autoSpacingPt,
   autospaceMode,

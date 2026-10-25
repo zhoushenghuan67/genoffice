@@ -16,8 +16,8 @@ import type {
   ShapeRenderNode,
   PictureRenderNode,
   GlyphRun,
-} from '@genoffice/pptx-render'
-import { patternGrid } from '@genoffice/pptx-render'
+} from '@huanoffice/pptx-render'
+import { patternGrid } from '@huanoffice/pptx-render'
 import { classifyCjkScript } from '../shared/cjk-script'
 
 /**

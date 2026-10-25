@@ -301,7 +301,7 @@ describe('writing the part into the package', () => {
       'xl/_rels/workbook.xml.rels':
         '<?xml version="1.0"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">' +
         '<Relationship Id="rId9" Type="' +
-        'https://schemas.genspark.ai/genoffice/2026/relationships/redactions' +
+        'https://schemas.genspark.ai/huanoffice/2026/relationships/redactions' +
         '" Target="gxRedactions.json"/></Relationships>',
       '[Content_Types].xml':
         '<Types xmlns="x"><Override PartName="/xl/gxRedactions.json" ContentType="y"/>' +

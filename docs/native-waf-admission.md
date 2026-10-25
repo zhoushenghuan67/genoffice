@@ -1,6 +1,6 @@
 # Optional native admission
 
-`GENOFFICE_NATIVE_WAF=1` opts the auth module's explicit-cookie API-key create/revoke
+`HUANOFFICE_NATIVE_WAF=1` opts the auth module's explicit-cookie API-key create/revoke
 requests into cookie-v1 admission. Unset is the shipped default: no issuer request,
 wait, timer or transport change. Device-code polling and the Bearer session exchange
 stay unchanged, as do all provider/agent/subprocess requests.
@@ -20,4 +20,4 @@ rollout is included.
 
 Admitted hosts come from configuration, not source: the `GSK_BASE_URL` host
 (default `www.genspark.ai`) plus any comma-separated hostnames in
-`GENOFFICE_NATIVE_WAF_HOSTS`. Requests to any other origin are sent unchanged.
+`HUANOFFICE_NATIVE_WAF_HOSTS`. Requests to any other origin are sent unchanged.

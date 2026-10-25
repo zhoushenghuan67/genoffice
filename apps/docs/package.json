@@ -1,6 +1,6 @@
 {
-  "name": "@genoffice/docs",
-  "productName": "GenOffice Docs",
+  "name": "@huanoffice/docs",
+  "productName": "HuanOffice Docs",
   "version": "0.1.0",
   "license": "Apache-2.0",
   "private": true,
@@ -18,14 +18,14 @@
     "dist:dir": "electron-vite build && electron-builder --dir"
   },
   "devDependencies": {
-    "@genoffice/agent-core": "*",
-    "@genoffice/i18n": "*",
-    "@genoffice/ai-provider": "*",
-    "@genoffice/ai-search": "*",
-    "@genoffice/docx-engine": "*",
-    "@genoffice/file-parse": "*",
-    "@genoffice/project-store": "*",
-    "@genoffice/ui": "*",
+    "@huanoffice/agent-core": "*",
+    "@huanoffice/i18n": "*",
+    "@huanoffice/ai-provider": "*",
+    "@huanoffice/ai-search": "*",
+    "@huanoffice/docx-engine": "*",
+    "@huanoffice/file-parse": "*",
+    "@huanoffice/project-store": "*",
+    "@huanoffice/ui": "*",
     "@tiptap/core": "3.31.0",
     "@tiptap/extensions": "3.31.0",
     "@tiptap/pm": "3.31.0",
@@ -47,10 +47,10 @@
     "vite": "^7.3.7",
     "vitest": "^4.1.12"
   },
-  "author": "GenOffice",
+  "author": "HuanOffice",
   "build": {
-    "appId": "com.genoffice.docs",
-    "productName": "GenOffice Docs",
+    "appId": "com.huanoffice.docs",
+    "productName": "HuanOffice Docs",
     "electronVersion": "43.3.0",
     "artifactName": "AIDocx-${version}-${arch}.${ext}",
     "directories": {
@@ -91,13 +91,13 @@
     }
   },
   "dependencies": {
-    "@genoffice/electron-utils": "*",
-    "@genoffice/font-metrics": "*",
+    "@huanoffice/electron-utils": "*",
+    "@huanoffice/font-metrics": "*",
     "electron-updater": "^6.8.9",
     "pdf-lib": "^1.17.1",
     "pdfjs-dist": "^6.2.108",
-    "@genoffice/pptx-render": "*",
-    "@genoffice/xlsx-gateway": "*",
-    "@genoffice/agent-core": "*"
+    "@huanoffice/pptx-render": "*",
+    "@huanoffice/xlsx-gateway": "*",
+    "@huanoffice/agent-core": "*"
   }
 }

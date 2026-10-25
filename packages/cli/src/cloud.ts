@@ -1,18 +1,18 @@
 import { existsSync } from 'node:fs'
 import { join } from 'node:path'
-import { setGskProxyUrl } from '@genoffice/ai-search'
-import { genofficeUserDataDir } from './gui'
+import { setGskProxyUrl } from '@huanoffice/ai-search'
+import { huanofficeUserDataDir } from './gui'
 import { packagedResourcesDir } from './resources'
 
 /**
  * The cloud commands (search / image / media) reuse the editors' provider
- * routing: Genspark when signed in (~/.genoffice/auth.json) and cloud tools
+ * routing: Genspark when signed in (~/.huanoffice/auth.json) and cloud tools
  * are on, otherwise the BYOK provider chosen in the app's AI settings. That
- * settings file lives in the shell's Electron userData directory, which genoffice
+ * settings file lives in the shell's Electron userData directory, which huanoffice
  * has to locate without Electron.
  */
 export function aiSettingsPath(env: NodeJS.ProcessEnv): string {
-  return env.GENOFFICE_AI_SETTINGS || join(genofficeUserDataDir(env), 'ai-settings.json')
+  return env.HUANOFFICE_AI_SETTINGS || join(huanofficeUserDataDir(env), 'ai-settings.json')
 }
 
 /** First http(s) proxy in the usual environment variables, as the app's main process reads them. */

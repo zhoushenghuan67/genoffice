@@ -1,14 +1,14 @@
-import type { AgentSkill, ToolDisplay } from '@genoffice/agent-core'
+import type { AgentSkill, ToolDisplay } from '@huanoffice/agent-core'
 import type {
   GroupRenderNode,
   PictureRenderNode,
   RenderNode,
   RenderSlide,
   ShapeRenderNode,
-} from '@genoffice/pptx-render'
+} from '@huanoffice/pptx-render'
 import type { AgentToolCall, AgentToolDef } from '../../shared/ipc'
-import { OP_GROUPS, opGuide, opGuideCatalog, opSignatureIndex } from '@genoffice/pptx-ops/op-docs'
-import { auditSlideLayout, formatAudit } from '@genoffice/pipelines/slides/layout-audit'
+import { OP_GROUPS, opGuide, opGuideCatalog, opSignatureIndex } from '@huanoffice/pptx-ops/op-docs'
+import { auditSlideLayout, formatAudit } from '@huanoffice/pipelines/slides/layout-audit'
 import { runLayoutScript, type LayoutScriptElement } from './layout-script'
 import {
   extractLayoutSkeleton,

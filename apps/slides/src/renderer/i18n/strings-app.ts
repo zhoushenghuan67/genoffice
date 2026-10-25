@@ -1,4 +1,4 @@
-import { defineStrings } from '@genoffice/i18n'
+import { defineStrings } from '@huanoffice/i18n'
 import { zh } from './app/zh'
 import { en } from './app/en'
 import { ja } from './app/ja'
