@@ -48,7 +48,7 @@ export const strings = {
     askNoSave: '对话不会保存,重启应用后清空。',
     askUnknownError: 'AI 请求失败,请重试。',
     navCloud: 'Genspark Projects',
-    cloudSubtitle: '在网页端用 Genspark AI 创建的项目。编辑在浏览器中继续——点击任意项目即可打开。',
+    cloudSubtitle: '在网页端用 HuanWork AI 创建的项目。编辑在浏览器中继续——点击任意项目即可打开。',
     cloudSearchPlaceholder: '搜索 {n} 个项目…',
     cloudNoResults: '没有匹配的项目。',
     cloudGroupThisWeek: '本周',
@@ -566,7 +566,7 @@ export const strings = {
     askUnknownError: 'The AI request failed. Try again.',
     navCloud: 'Genspark Projects',
     cloudSubtitle:
-      'Projects created on the web with Genspark AI. Editing continues in your browser — click any project to open it.',
+      'Projects created on the web with HuanWork AI. Editing continues in your browser — click any project to open it.',
     cloudSearchPlaceholder: 'Search {n} projects…',
     cloudNoResults: 'No matching projects.',
     cloudGroupThisWeek: 'This week',
@@ -1098,7 +1098,7 @@ export const strings = {
     askUnknownError: 'Yêu cầu AI thất bại. Thử lại.',
     navCloud: 'Dự án Genspark',
     cloudSubtitle:
-      'Các dự án được tạo trên web với Genspark AI. Tiếp tục chỉnh sửa trên trình duyệt của bạn — nhấp vào bất kỳ dự án nào để mở.',
+      'Các dự án được tạo trên web với HuanWork AI. Tiếp tục chỉnh sửa trên trình duyệt của bạn — nhấp vào bất kỳ dự án nào để mở.',
     cloudSearchPlaceholder: 'Tìm kiếm {n} dự án…',
     cloudNoResults: 'Không có dự án phù hợp.',
     cloudGroupThisWeek: 'Tuần này',
@@ -1633,7 +1633,7 @@ export const strings = {
     askUnknownError: 'AI リクエストに失敗しました。もう一度お試しください。',
     navCloud: 'Genspark Projects',
     cloudSubtitle:
-      'Web で Genspark AI を使って作成したプロジェクト。編集はブラウザで続行します。クリックで開きます。',
+      'Web で HuanWork AI を使って作成したプロジェクト。編集はブラウザで続行します。クリックで開きます。',
     cloudSearchPlaceholder: '{n} 件のプロジェクトを検索…',
     cloudNoResults: '一致するプロジェクトはありません。',
     cloudGroupThisWeek: '今週',
@@ -2180,7 +2180,7 @@ export const strings = {
     askUnknownError: 'AI 요청에 실패했습니다. 다시 시도해 주세요.',
     navCloud: 'Genspark Projects',
     cloudSubtitle:
-      'Genspark AI로 웹에서 만든 프로젝트입니다. 편집은 브라우저에서 계속됩니다. 프로젝트를 클릭하면 열립니다.',
+      'HuanWork AI로 웹에서 만든 프로젝트입니다. 편집은 브라우저에서 계속됩니다. 프로젝트를 클릭하면 열립니다.',
     cloudSearchPlaceholder: '프로젝트 {n}개 검색…',
     cloudNoResults: '일치하는 프로젝트가 없습니다.',
     cloudGroupThisWeek: '이번 주',
@@ -2719,7 +2719,7 @@ export const strings = {
     askUnknownError: 'La requête IA a échoué. Réessayez.',
     navCloud: 'Genspark Projects',
     cloudSubtitle:
-      "Projets créés sur le web avec Genspark AI. L'édition continue dans votre navigateur — cliquez sur un projet pour l'ouvrir.",
+      "Projets créés sur le web avec HuanWork AI. L'édition continue dans votre navigateur — cliquez sur un projet pour l'ouvrir.",
     cloudSearchPlaceholder: 'Rechercher parmi {n} projets…',
     cloudNoResults: 'Aucun projet correspondant.',
     cloudGroupThisWeek: 'Cette semaine',
@@ -3275,7 +3275,7 @@ export const strings = {
     askUnknownError: 'Die KI-Anfrage ist fehlgeschlagen. Bitte erneut versuchen.',
     navCloud: 'Genspark Projects',
     cloudSubtitle:
-      'Mit Genspark AI im Web erstellte Projekte. Die Bearbeitung läuft im Browser weiter – klicken Sie auf ein Projekt, um es zu öffnen.',
+      'Mit HuanWork AI im Web erstellte Projekte. Die Bearbeitung läuft im Browser weiter – klicken Sie auf ein Projekt, um es zu öffnen.',
     cloudSearchPlaceholder: '{n} Projekte durchsuchen…',
     cloudNoResults: 'Keine passenden Projekte.',
     cloudGroupThisWeek: 'Diese Woche',
@@ -3831,7 +3831,7 @@ export const strings = {
     askUnknownError: 'La solicitud de IA falló. Inténtalo de nuevo.',
     navCloud: 'Genspark Projects',
     cloudSubtitle:
-      'Proyectos creados en la web con Genspark AI. La edición continúa en tu navegador: haz clic en un proyecto para abrirlo.',
+      'Proyectos creados en la web con HuanWork AI. La edición continúa en tu navegador: haz clic en un proyecto para abrirlo.',
     cloudSearchPlaceholder: 'Buscar entre {n} proyectos…',
     cloudNoResults: 'No hay proyectos coincidentes.',
     cloudGroupThisWeek: 'Esta semana',
@@ -4383,7 +4383,7 @@ export const strings = {
     askUnknownError: 'คำขอ AI ล้มเหลว โปรดลองอีกครั้ง',
     navCloud: 'Genspark Projects',
     cloudSubtitle:
-      'โปรเจกต์ที่สร้างบนเว็บด้วย Genspark AI แก้ไขต่อได้ในเบราว์เซอร์ — คลิกโปรเจกต์เพื่อเปิด',
+      'โปรเจกต์ที่สร้างบนเว็บด้วย HuanWork AI แก้ไขต่อได้ในเบราว์เซอร์ — คลิกโปรเจกต์เพื่อเปิด',
     cloudSearchPlaceholder: 'ค้นหา {n} โปรเจกต์…',
     cloudNoResults: 'ไม่มีโปรเจกต์ที่ตรงกัน',
     cloudGroupThisWeek: 'สัปดาห์นี้',
@@ -4916,7 +4916,7 @@ export const strings = {
     askUnknownError: 'Permintaan AI gagal. Coba lagi.',
     navCloud: 'Genspark Projects',
     cloudSubtitle:
-      'Proyek yang dibuat di web dengan Genspark AI. Pengeditan berlanjut di browser — klik proyek untuk membukanya.',
+      'Proyek yang dibuat di web dengan HuanWork AI. Pengeditan berlanjut di browser — klik proyek untuk membukanya.',
     cloudSearchPlaceholder: 'Cari {n} proyek…',
     cloudNoResults: 'Tidak ada proyek yang cocok.',
     cloudGroupThisWeek: 'Minggu ini',
@@ -5462,7 +5462,7 @@ export const strings = {
     askUnknownError: 'Запрос к ИИ не удался. Попробуйте снова.',
     navCloud: 'Genspark Projects',
     cloudSubtitle:
-      'Проекты, созданные в вебе с Genspark AI. Редактирование продолжается в браузере — нажмите на проект, чтобы открыть его.',
+      'Проекты, созданные в вебе с HuanWork AI. Редактирование продолжается в браузере — нажмите на проект, чтобы открыть его.',
     cloudSearchPlaceholder: 'Поиск среди {n} проектов…',
     cloudNoResults: 'Нет подходящих проектов.',
     cloudGroupThisWeek: 'На этой неделе',
@@ -6006,7 +6006,7 @@ export const strings = {
     askUnknownError: 'فشل طلب الذكاء الاصطناعي. حاول مجدداً.',
     navCloud: 'Genspark Projects',
     cloudSubtitle:
-      'مشاريع أُنشئت على الويب باستخدام Genspark AI. يستمر التحرير في المتصفح — انقر على أي مشروع لفتحه.',
+      'مشاريع أُنشئت على الويب باستخدام HuanWork AI. يستمر التحرير في المتصفح — انقر على أي مشروع لفتحه.',
     cloudSearchPlaceholder: 'ابحث في {n} مشروعًا…',
     cloudNoResults: 'لا توجد مشاريع مطابقة.',
     cloudGroupThisWeek: 'هذا الأسبوع',
@@ -6541,7 +6541,7 @@ export const strings = {
     askUnknownError: 'A solicitação de IA falhou. Tente novamente.',
     navCloud: 'Genspark Projects',
     cloudSubtitle:
-      'Projetos criados na web com o Genspark AI. A edição continua no navegador — clique em um projeto para abri-lo.',
+      'Projetos criados na web com o HuanWork AI. A edição continua no navegador — clique em um projeto para abri-lo.',
     cloudSearchPlaceholder: 'Pesquisar {n} projetos…',
     cloudNoResults: 'Nenhum projeto correspondente.',
     cloudGroupThisWeek: 'Esta semana',
@@ -7084,7 +7084,7 @@ export const strings = {
     askUnknownError: 'La richiesta IA non è riuscita. Riprova.',
     navCloud: 'Genspark Projects',
     cloudSubtitle:
-      'Progetti creati sul web con Genspark AI. La modifica continua nel browser: fai clic su un progetto per aprirlo.',
+      'Progetti creati sul web con HuanWork AI. La modifica continua nel browser: fai clic su un progetto per aprirlo.',
     cloudSearchPlaceholder: 'Cerca tra {n} progetti…',
     cloudNoResults: 'Nessun progetto corrispondente.',
     cloudGroupThisWeek: 'Questa settimana',
@@ -7625,7 +7625,7 @@ export const strings = {
     askUnknownError: 'Żądanie AI nie powiodło się. Spróbuj ponownie.',
     navCloud: 'Genspark Projects',
     cloudSubtitle:
-      'Projekty utworzone w sieci za pomocą Genspark AI. Edycja jest kontynuowana w przeglądarce — kliknij projekt, aby go otworzyć.',
+      'Projekty utworzone w sieci za pomocą HuanWork AI. Edycja jest kontynuowana w przeglądarce — kliknij projekt, aby go otworzyć.',
     cloudSearchPlaceholder: 'Szukaj wśród {n} projektów…',
     cloudNoResults: 'Brak pasujących projektów.',
     cloudGroupThisWeek: 'W tym tygodniu',
@@ -8161,7 +8161,7 @@ export const strings = {
     askUnknownError: 'Požadavek na AI selhal. Zkuste to znovu.',
     navCloud: 'Genspark Projects',
     cloudSubtitle:
-      'Projekty vytvořené na webu pomocí Genspark AI. Úpravy pokračují v prohlížeči — klikněte na projekt a otevřete ho.',
+      'Projekty vytvořené na webu pomocí HuanWork AI. Úpravy pokračují v prohlížeči — klikněte na projekt a otevřete ho.',
     cloudSearchPlaceholder: 'Hledat mezi {n} projekty…',
     cloudNoResults: 'Žádné odpovídající projekty.',
     cloudGroupThisWeek: 'Tento týden',
@@ -8694,7 +8694,7 @@ export const strings = {
     askUnknownError: 'De AI-aanvraag is mislukt. Probeer het opnieuw.',
     navCloud: 'Genspark Projects',
     cloudSubtitle:
-      'Projecten gemaakt op het web met Genspark AI. Bewerken gaat verder in je browser — klik op een project om het te openen.',
+      'Projecten gemaakt op het web met HuanWork AI. Bewerken gaat verder in je browser — klik op een project om het te openen.',
     cloudSearchPlaceholder: 'Zoek in {n} projecten…',
     cloudNoResults: 'Geen overeenkomende projecten.',
     cloudGroupThisWeek: 'Deze week',
@@ -9233,7 +9233,7 @@ export const strings = {
     askUnknownError: 'Permintaan AI gagal. Cuba lagi.',
     navCloud: 'Genspark Projects',
     cloudSubtitle:
-      'Projek yang dicipta di web dengan Genspark AI. Penyuntingan diteruskan dalam pelayar — klik projek untuk membukanya.',
+      'Projek yang dicipta di web dengan HuanWork AI. Penyuntingan diteruskan dalam pelayar — klik projek untuk membukanya.',
     cloudSearchPlaceholder: 'Cari {n} projek…',
     cloudNoResults: 'Tiada projek sepadan.',
     cloudGroupThisWeek: 'Minggu ini',
@@ -9773,7 +9773,7 @@ export const strings = {
     askUnknownError: 'בקשת ה-AI נכשלה. נסה שוב.',
     navCloud: 'Genspark Projects',
     cloudSubtitle:
-      'פרויקטים שנוצרו באינטרנט עם Genspark AI. העריכה נמשכת בדפדפן — לחצו על פרויקט כדי לפתוח אותו.',
+      'פרויקטים שנוצרו באינטרנט עם HuanWork AI. העריכה נמשכת בדפדפן — לחצו על פרויקט כדי לפתוח אותו.',
     cloudSearchPlaceholder: 'חיפוש בין {n} פרויקטים…',
     cloudNoResults: 'אין פרויקטים תואמים.',
     cloudGroupThisWeek: 'השבוע',
@@ -10294,7 +10294,7 @@ export const strings = {
     askUnknownError: 'AI अनुरोध विफल रहा। फिर से प्रयास करें।',
     navCloud: 'Genspark Projects',
     cloudSubtitle:
-      'Genspark AI के साथ वेब पर बनाए गए प्रोजेक्ट। संपादन ब्राउज़र में जारी रहता है — खोलने के लिए किसी प्रोजेक्ट पर क्लिक करें।',
+      'HuanWork AI के साथ वेब पर बनाए गए प्रोजेक्ट। संपादन ब्राउज़र में जारी रहता है — खोलने के लिए किसी प्रोजेक्ट पर क्लिक करें।',
     cloudSearchPlaceholder: '{n} प्रोजेक्ट खोजें…',
     cloudNoResults: 'कोई मिलान वाला प्रोजेक्ट नहीं।',
     cloudGroupThisWeek: 'इस सप्ताह',
@@ -10824,7 +10824,7 @@ export const strings = {
     askNoSave: '對話不會保存,重啟應用程式後清空。',
     askUnknownError: 'AI 請求失敗,請重試。',
     navCloud: 'Genspark Projects',
-    cloudSubtitle: '在網頁端用 Genspark AI 建立的專案。編輯在瀏覽器中繼續——點擊任意專案即可開啟。',
+    cloudSubtitle: '在網頁端用 HuanWork AI 建立的專案。編輯在瀏覽器中繼續——點擊任意專案即可開啟。',
     cloudSearchPlaceholder: '搜尋 {n} 個專案…',
     cloudNoResults: '沒有符合的專案。',
     cloudGroupThisWeek: '本週',

@@ -23,7 +23,7 @@ import {
   BorderThickOuterIcon,
   BorderTopIcon,
   CaretIcon,
-  GensparkMark,
+  HuanWorkMark,
   RIBBON_GLYPH_ICONS,
   RedoIcon,
   SaveAsIcon,
@@ -3361,10 +3361,10 @@ function Ribbon({
           onClick={onAiToggle}
         >
           <span className="tool-icon-row">
-            <GensparkMark size={26} />
+            <HuanWorkMark size={26} />
           </span>
           <span>
-            <strong>Genspark AI</strong>
+            <strong>HuanWork AI</strong>
           </span>
         </button>
         <button
